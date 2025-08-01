@@ -4,14 +4,16 @@
         "dev": "mix",
         "watch": "mix watch",
         "staging": "NODE_ENV=staging mix",
-        "prod": "mix --production"
+        "prod": "mix --production",
+        "go": "mix && ./vendor/bin/jigsaw build"
     },
     "devDependencies": {
+        "@tailwindcss/postcss": "^4.1.11",
+        "@tailwindcss/typography": "^0.5.16",
         "laravel-mix": "^6.0.39",
         "laravel-mix-jigsaw": "^2.0.0",
         "postcss": "^8.4.14",
         "postcss-import": "^14.0.0",
-        "tailwindcss": "^4.1.11",
-        "@tailwindcss/postcss": "^4.1.11"
+        "tailwindcss": "^4.1.11"
     }
 }

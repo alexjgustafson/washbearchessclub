@@ -5,5 +5,9 @@ return [
     'baseUrl' => 'washbearchess.club',
     'title' => 'Washbear Chess Club',
     'description' => 'Chess club in Louisville, KY since 2025.',
-    'collections' => [],
+    'collections' => [
+        'tournaments' => [
+            'path' => 'tournaments/{filename}',
+        ]
+    ],
 ];
