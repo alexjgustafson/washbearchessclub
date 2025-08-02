@@ -1,5 +1,6 @@
 ---
 extends: _layouts.tournament
+eventId: 1
 title: 'Trash Panda Throwdown #1'
 gameFormat: '4SS, G/40;+10'
 location: 'Louisville, KY'

@@ -8,6 +8,7 @@ return [
     'collections' => [
         'tournaments' => [
             'path' => 'tournaments/{filename}',
+            'sort' => 'eventId'
         ]
     ],
 ];

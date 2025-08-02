@@ -17,6 +17,13 @@
     <p class="text-2xl font-bold accent">More details on the Facebook group:</p>
     <p><a href="https://www.facebook.com/groups/washbearchessclub">https://www.facebook.com/groups/washbearchessclub</a></p>
 </div>
+<div class="py-8 mb-8 text-center">
+    <h2 class="text-3xl font-bold block">Tournaments</h2>
+    <p class="py-2">USCF-rated events</p>
+    <div class="max-w-2xl mx-auto">
+        @include('_molecules.tournament-grid')
+    </div>
+</div>
 <div class="mb-8 text-center">
     <p>If you're interested in new chess events coming to the Louisville area please signup below.</p>
 </div>
