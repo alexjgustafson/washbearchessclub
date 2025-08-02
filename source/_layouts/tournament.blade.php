@@ -27,10 +27,8 @@
 
 <div class="prose mx-auto">
     @yield('body')
-    <h2 id="online-registration" class="mb-8">Online Registration</h2>
 </div>
-<p class="bg-gray-100 mx-auto w-full flex justify-center p-4 lg:w-1/2 lg:rounded-xl shadow-lg shadow-gray-500 mb-8">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfS86ohRoL5lB4xQaTwo5Nj92WE85QG2GcwB2mCCgiy_2wGSg/viewform?embedded=true" width="640" height="1200">Loading…</iframe>
-</p>
+
+@yield('entry-form')
 </body>
 </html>
