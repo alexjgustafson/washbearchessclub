@@ -74,10 +74,61 @@ date: 'Sept 14, 2025'
         </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Aug 1, 2025</p>
+    <p>Last updated Aug 6, 2025</p>
 
     <h3>Registered</h3>
-    <h3>Waitlist</h3>
+
+
+        <div class="relative overflow-x-auto">
+            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="px-6 py-3">
+                        Name
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        USCF ID
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Rating
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        Mathis, Jordan Tyler
+                    </th>
+                    <td class="px-6 py-4">
+                        --
+                    </td>
+                    <td class="px-6 py-4">
+                        Unrated
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <h3>Waitlist</h3>
+        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 mb-16">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3">
+                    Name
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    USCF ID
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Rating
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
 @endsection
 
 @section('entry-form')
