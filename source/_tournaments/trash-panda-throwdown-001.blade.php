@@ -74,7 +74,7 @@ date: 'Sept 14, 2025'
         </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Aug 6, 2025</p>
+    <p>Last updated Aug 13, 2025</p>
 
     <h3>Registered</h3>
 
@@ -95,18 +95,36 @@ date: 'Sept 14, 2025'
                 </tr>
                 </thead>
                 <tbody>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                        Mathis, Jordan Tyler
-                    </th>
-                    <td class="px-6 py-4">
-                        --
-                    </td>
-                    <td class="px-6 py-4">
-                        Unrated
-                    </td>
-                </tr>
-
+                <?php $registrations = [
+                    [
+                        'name' => 'Gustafson, Alex',
+                        'id' => '12598530',
+                        'rating' => '1600'
+                    ],
+                    [
+                        'name' => 'Miley, Bryan Raye',
+                        'id' => '12936900',
+                        'rating' => '1481'
+                    ],
+                    [
+                        'name' => 'Mathis, Jordan Tyler',
+                        'id' => '--',
+                        'rating' => 'Unrated'
+                    ],
+                ]; ?>
+                @foreach($registrations as $r)
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            {{$r['name']}}
+                        </th>
+                        <td class="px-6 py-4">
+                            {{$r['id']}}
+                        </td>
+                        <td class="px-6 py-4">
+                            {{$r['rating']}}
+                        </td>
+                    </tr>
+                @endforeach
                 </tbody>
             </table>
         </div>
