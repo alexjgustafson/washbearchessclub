@@ -28,7 +28,7 @@ date: 'Sept 14, 2025'
         <li>4 Rounds Swiss System</li>
         <li>G/40;+10</li>
         <li>USCF membership is required.</li>
-        <li>Open to all ages and rxatings.</li>
+        <li>Open to all ages and ratings.</li>
         <li>TD may create two sections if rating distribution warrants.</li>
         <li>Clocks and sets provided.</li>
     </ul>

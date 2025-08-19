@@ -1,13 +1,16 @@
 ---
-extends: _layouts.tournament
 eventId: 2
 title: 'Trash Panda Throwdown #2'
-gameFormat: 'Format TBD'
+gameFormat: '3SS, G/60;+30'
 location: 'Louisville, KY'
-entryFee: 'Entry Fee TBD'
+entryFee: '$30'
 date: 'Nov 8th, 2025'
-section: body
 ---
+
+@extends('_layouts.tournament')
+
+@section('body')
+@endsection
 
 Details TBD
 
