@@ -74,7 +74,7 @@ date: 'Sept 14, 2025'
         </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Aug 13, 2025</p>
+    <p>Last updated Aug 25, 2025</p>
 
     <h3>Registered</h3>
 
@@ -99,7 +99,7 @@ date: 'Sept 14, 2025'
                     [
                         'name' => 'Gustafson, Alex',
                         'id' => '12598530',
-                        'rating' => '1600'
+                        'rating' => '1529'
                     ],
                     [
                         'name' => 'Miley, Bryan Raye',
