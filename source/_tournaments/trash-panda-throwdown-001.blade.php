@@ -112,21 +112,28 @@ date: 'Sept 14, 2025'
                     ],
                     [
                         'name' => 'Harris, Dawson',
-                        'id' => '--',
+                        'id' => null,
                         'rating' => 'Unrated'
                     ],                    [
                         'name' => 'Mathis, Jordan Tyler',
-                        'id' => '--',
+                        'id' => null,
                         'rating' => 'Unrated'
                     ],
                 ]; ?>
                 @foreach($registrations as $r)
+
                     <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                             {{$r['name']}}
                         </th>
                         <td class="px-6 py-4">
-                            {{$r['id']}}
+                            <?php $idDisplay = $r['id'] ?? '--';
+                            $hasId = (bool) $r['id'];
+                            echo sprintf('%s%s%s',
+                                $hasId ? '<a href="https://www.uschess.org/msa/MbrDtlMain.php?' . $idDisplay .'" target="_blank" rel="noopener noreferrer">' : '',
+                                $idDisplay,
+                                $hasId ? '</a>' : '',
+                            ); ?>
                         </td>
                         <td class="px-6 py-4">
                             {{$r['rating']}}
