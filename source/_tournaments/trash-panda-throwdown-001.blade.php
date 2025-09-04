@@ -74,7 +74,7 @@ date: 'Sept 14, 2025'
         </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Sep 1, 2025</p>
+    <p>Last updated Sep 4, 2025</p>
 
     <h3>Registered</h3>
 
@@ -105,6 +105,10 @@ date: 'Sept 14, 2025'
                         'name' => 'Miley, Bryan Raye',
                         'id' => '12936900',
                         'rating' => '1481'
+                    ],                    [
+                        'name' => 'Gross, Keegan Spencer',
+                        'id' => '31630703',
+                        'rating' => '1198'
                     ],
                     [
                         'name' => 'Mathis, Jordan Tyler',
