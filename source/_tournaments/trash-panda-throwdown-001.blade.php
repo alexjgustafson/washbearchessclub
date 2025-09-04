@@ -111,6 +111,10 @@ date: 'Sept 14, 2025'
                         'rating' => '1198'
                     ],
                     [
+                        'name' => 'Harris, Dawson',
+                        'id' => '--',
+                        'rating' => 'Unrated'
+                    ],                    [
                         'name' => 'Mathis, Jordan Tyler',
                         'id' => '--',
                         'rating' => 'Unrated'
