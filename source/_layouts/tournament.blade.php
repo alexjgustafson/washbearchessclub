@@ -1,3 +1,7 @@
+<?php
+    use Novaway\Component\OpenGraph\OpenGraph;
+    use Novaway\Component\OpenGraph\View\OpenGraphRenderer;
+?>
 <!DOCTYPE html>
 <html lang="{{ $page->language ?? 'en' }}">
 <head>
@@ -8,7 +12,19 @@
     <title>{{ $page->title }} - Washbear Chess Club</title>
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
-    {!! $page->opengraph  !!}
+    <?php
+        $og = new OpenGraph;
+        $og->setImage($page->{'og:image'});
+        $og->setType('website');
+        $og->setTitle($page->title . ' - ' . 'Washbear Chess Club');
+        $og->setDesription(sprintf('Details for the Washbear Chess Club %s%s%s',
+            $page->title ? 'tournament ' . $page->title . '.' : 'tournament.',
+            $page->date ? ' ' . $page->date . '.' : '',
+            $page->gameFormat ? ' ' . $page->gameFormat . '.' : ''
+        ));
+        $og->setUrl($page->getUrl());
+    ?>
+    {!! (new OpenGraphRenderer)->render($og) !!}
 </head>
 <body class="text-gray-900 font-sans antialiased">
 

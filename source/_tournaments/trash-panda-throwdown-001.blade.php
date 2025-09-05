@@ -17,7 +17,7 @@ date: 'Sept 14, 2025'
 
     <h2 id="registration">Registration</h2>
     <ul>
-        <li>Entry fee: $30.</li>
+        <li>Entry fee: {{ $page->entryFee }}.</li>
         <li>Pay in cash on site or <a href="#contact">contact Alex</a> for Venmo.</li>
         <li>Limited to 16 players.</li>
         <li>Register online <a href="#online-registration">using the Google Form below</a> (or <a href="#contact">contact Alex</a>) to secure your spot. On-site registration accepted up to capacity.</li>

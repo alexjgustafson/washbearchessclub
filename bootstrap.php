@@ -1,7 +1,5 @@
 <?php
 
-use Novaway\Component\OpenGraph\OpenGraph;
-use Novaway\Component\OpenGraph\View\OpenGraphRenderer;
 use TightenCo\Jigsaw\Jigsaw;
 
 /** @var \Illuminate\Container\Container $container */
@@ -17,12 +15,3 @@ use TightenCo\Jigsaw\Jigsaw;
  *     // Your code here
  * });
  */
-
-$events->beforeBuild(function (Jigsaw $jigsaw){
-    $og = new OpenGraph();
-    $og->setTitle($jigsaw->getConfig('title'));
-    $og->setImage($jigsaw->getConfig('og:image'));
-
-    $ogRenderer = OpenGraphRenderer::create();
-    $jigsaw->setConfig('opengraph', $ogRenderer->render($og));
-});
