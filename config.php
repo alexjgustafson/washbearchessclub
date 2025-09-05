@@ -11,4 +11,5 @@ return [
             'sort' => 'eventId'
         ]
     ],
+    'og:image' => 'https://washbearchess.club/assets/images/raccoon-with-rook-320x320.jpeg',
 ];

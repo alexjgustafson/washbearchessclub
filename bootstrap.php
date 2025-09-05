@@ -21,6 +21,7 @@ use TightenCo\Jigsaw\Jigsaw;
 $events->beforeBuild(function (Jigsaw $jigsaw){
     $og = new OpenGraph();
     $og->setTitle($jigsaw->getConfig('title'));
+    $og->setImage($jigsaw->getConfig('og:image'));
 
     $ogRenderer = OpenGraphRenderer::create();
     $jigsaw->setConfig('opengraph', $ogRenderer->render($og));
