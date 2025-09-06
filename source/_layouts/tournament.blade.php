@@ -26,7 +26,7 @@
     ?>
     {!! (new OpenGraphRenderer)->render($og) !!}
 </head>
-<body class="text-gray-900 font-sans antialiased">
+<body class="text-gray-900 font-sans antialiased dark:bg-black dark:text-white">
 
 <div class="py-8 mb-8 text-center">
     <h1 class="text-3xl font-bold block">{{ $page->title }}</h1>
@@ -41,7 +41,7 @@
     </div>
 </div>
 
-<div class="prose mx-auto">
+<div class="prose mx-auto dark:prose-invert">
     @yield('body')
 </div>
 

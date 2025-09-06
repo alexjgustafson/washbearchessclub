@@ -22,7 +22,7 @@
         ?>
         {!! (new OpenGraphRenderer)->render($og) !!}
     </head>
-    <body class="text-gray-900 font-sans antialiased">
+    <body class="text-gray-900 font-sans antialiased dark:bg-black dark:text-white">
         <div class="py-8 mb-8 text-center">
             <h1 class="text-3xl font-bold block">Washbear Chess Club</h1>
             <p>US Chess Federation affiliate in Louisville, KY.</p>
