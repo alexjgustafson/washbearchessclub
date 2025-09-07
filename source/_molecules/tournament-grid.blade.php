@@ -2,15 +2,15 @@
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
     @foreach($tournaments as $t)
         <?php
-            $isUpcoming = true;
-            $isPast = true;
+            $isComplete = (bool) $t->complete;
+            $isUpcoming = !$isComplete;
             $shouldShow = true;
             switch ($status) {
                 case 'upcoming':
                     $shouldShow = $isUpcoming;
                     break;
                 case 'past':
-                    $shouldShow = $isPast;
+                    $shouldShow = $isComplete;
                     break;
                 default:
                     break;

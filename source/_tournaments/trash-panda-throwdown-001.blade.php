@@ -5,6 +5,7 @@ gameFormat: '4SS, G/40;+10'
 location: 'Louisville, KY'
 entryFee: '$30'
 date: 'Sept 14, 2025'
+complete: false
 ---
 
 @extends('_layouts.tournament')
