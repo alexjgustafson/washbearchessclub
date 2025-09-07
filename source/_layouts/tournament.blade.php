@@ -22,7 +22,7 @@
             $page->date ? ' ' . $page->date . '.' : '',
             $page->gameFormat ? ' ' . $page->gameFormat . '.' : ''
         ));
-        $og->setUrl($page->getUrl());
+        $og->setUrl('https://' . $page->getUrl());
     ?>
     {!! (new OpenGraphRenderer)->render($og) !!}
 </head>

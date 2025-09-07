@@ -17,7 +17,7 @@
             $og->setTitle($page->title);
             $og->setImage($page->{'og:image'});
             $og->setType('website');
-            $og->setUrl($page->getUrl());
+            $og->setUrl('https://' . $page->getUrl());
             $og->setDesription($page->description);
         ?>
         {!! (new OpenGraphRenderer)->render($og) !!}
