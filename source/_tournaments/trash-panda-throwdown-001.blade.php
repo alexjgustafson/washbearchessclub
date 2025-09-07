@@ -74,94 +74,37 @@ date: 'Sept 14, 2025'
         </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Sep 4, 2025</p>
+    <p>Last updated Sep 7, 2025</p>
 
     <h3>Registered</h3>
+    @include('_components.registration-table', ['registrations' => [
+        [
+            'name' => 'Gustafson, Alex',
+            'id' => '12598530',
+            'rating' => '1529'
+        ],
+        [
+            'name' => 'Miley, Bryan Raye',
+            'id' => '12936900',
+            'rating' => '1481'
+        ],                    [
+            'name' => 'Gross, Keegan Spencer',
+            'id' => '31630703',
+            'rating' => '1198'
+        ],
+        [
+            'name' => 'Harris, Dawson',
+            'id' => null,
+            'rating' => 'Unrated'
+        ],                    [
+            'name' => 'Mathis, Jordan Tyler',
+            'id' => null,
+            'rating' => 'Unrated'
+        ],
+    ]])
 
-
-        <div class="relative overflow-x-auto">
-            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                <tr>
-                    <th scope="col" class="px-6 py-3">
-                        Name
-                    </th>
-                    <th scope="col" class="px-6 py-3">
-                        USCF ID
-                    </th>
-                    <th scope="col" class="px-6 py-3">
-                        Rating
-                    </th>
-                </tr>
-                </thead>
-                <tbody>
-                <?php $registrations = [
-                    [
-                        'name' => 'Gustafson, Alex',
-                        'id' => '12598530',
-                        'rating' => '1529'
-                    ],
-                    [
-                        'name' => 'Miley, Bryan Raye',
-                        'id' => '12936900',
-                        'rating' => '1481'
-                    ],                    [
-                        'name' => 'Gross, Keegan Spencer',
-                        'id' => '31630703',
-                        'rating' => '1198'
-                    ],
-                    [
-                        'name' => 'Harris, Dawson',
-                        'id' => null,
-                        'rating' => 'Unrated'
-                    ],                    [
-                        'name' => 'Mathis, Jordan Tyler',
-                        'id' => null,
-                        'rating' => 'Unrated'
-                    ],
-                ]; ?>
-                @foreach($registrations as $r)
-
-                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            {{$r['name']}}
-                        </th>
-                        <td class="px-6 py-4">
-                            <?php $idDisplay = $r['id'] ?? '--';
-                            $hasId = (bool) $r['id'];
-                            echo sprintf('%s%s%s',
-                                $hasId ? '<a href="https://www.uschess.org/msa/MbrDtlMain.php?' . $idDisplay .'" target="_blank" rel="noopener noreferrer">' : '',
-                                $idDisplay,
-                                $hasId ? '</a>' : '',
-                            ); ?>
-                        </td>
-                        <td class="px-6 py-4">
-                            {{$r['rating']}}
-                        </td>
-                    </tr>
-                @endforeach
-                </tbody>
-            </table>
-        </div>
-
-        <h3>Waitlist</h3>
-        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 mb-16">
-            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-            <tr>
-                <th scope="col" class="px-6 py-3">
-                    Name
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    USCF ID
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Rating
-                </th>
-            </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
+    <h3>Waitlist</h3>
+    @include('_components.registration-table', ['registrations' => []])
 @endsection
 
 @section('entry-form')
