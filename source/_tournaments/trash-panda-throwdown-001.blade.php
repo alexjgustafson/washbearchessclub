@@ -32,6 +32,7 @@ complete: false
         <li>Open to all ages and ratings.</li>
         <li>TD may create two sections if rating distribution warrants.</li>
         <li>Clocks and sets provided.</li>
+        <li><a href="/rulebook">Players should review the Washbear Chess Club Rulebook.</a></li>
     </ul>
 
     <h2 id="prizes">Prizes</h2>
