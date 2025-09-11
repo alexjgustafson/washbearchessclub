@@ -76,7 +76,7 @@ complete: false
         </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Sep 7, 2025</p>
+    <p>Last updated Sep 11, 2025</p>
 
     <h3>Registered</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -96,7 +96,7 @@ complete: false
         ],
         [
             'name' => 'Harris, Dawson',
-            'id' => null,
+            'id' => '32563988',
             'rating' => 'Unrated'
         ],                    [
             'name' => 'Mathis, Jordan Tyler',
