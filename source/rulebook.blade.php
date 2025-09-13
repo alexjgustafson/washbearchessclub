@@ -3,7 +3,7 @@
 @section('body')
 <div class="mb-8 text-center">
     <h2 class="text-3xl font-bold block mb-8">Rulebook</h2>
-    <p>Last updated Sep 8, 2025</p>
+    <p>Last updated Sep 13, 2025</p>
 </div>
 <div class="prose mx-auto dark:prose-invert">
     <h3 id="us-chess">US Chess Official Rules</h3>
@@ -15,19 +15,21 @@
     <h3 id="club-rules">Club Rules</h3>
 
     <h4 id="late-arrival-forfeit">Late-Arrival Forfeiture</h4>
-    <p>US Chess allows up to one hour (or the game's time control, if less than one hour) of waiting before a non-arriving or late-arriving player forfeits the round by default. WCC shortens this time to 30 minutes unless the player informs the tournament director of their intention to arrive in which case it is extended to one hour.</p>
+    <p>WCC allows for 30 minutes (or the game's time control, if less than 30 minutes) of waiting before a non-arriving or late-arriving player forfeits the round by default.</p>
+    <p>Note is this shorter than the US Chess default of one hour.</p>
+    <p>If the late-arriving player informs the tournament director of their intention to arrive, the tournament director may choose to extend the time allowed.</p>
 
     <h4 id="cell-phones-and-electronic-devices">Cell Phones and Electronic Devices</h4>
     <p>Electronic notation devices approved by US Chess are allowed for their intended use.</p>
-    <p>If a player brings any other electronic devices, including cell phones, to the playing area it must be completely turned off.</p>
-    <p>The device must be placed either inside a bag or on the table beside their board for the entirety of the game. If inside a bag, the bag must remain at the board the entirety of the game (not brought to the bathroom, for example.)</p>
+    <p>If a player brings any other electronic device to the playing area it must be completely turned off.</p>
+    <p>The device must be placed either inside a bag or on the table beside their board visible by their opponent for the entirety of the game. If inside a bag, the bag must remain at the board the entirety of the game (not brought to the bathroom, for example.)</p>
     <p>Consult the tournament director if special accommodations need to be made, for example a medical worker who is "on call."</p>
 
     <h4 id="reporting-results">Reporting Results</h4>
     <p>Both players are responsible for reporting the result of their game. Either by marking the pairing sheet or informing the tournament director.</p>
 
     <h4 id="adjournments">Adjournments</h4>
-    <p>Adjournments will not be used in WCC games.</p>
+    <p>Players may not request adjournments at WCC events. Directors will only adjourn a game in extraordinary circumstances.</p>
     <hr/>
 </div>
 
