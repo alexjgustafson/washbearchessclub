@@ -42,6 +42,14 @@
 </div>
 
 <div class="prose mx-auto dark:prose-invert">
+    @if($page->complete)
+        <h2>This Event is Complete.</h2>
+
+        @if($page->crosstable)
+            <p><a href="{!! $page->crosstable !!}">View the US Chess Crosstable</a></p>
+        @endif
+        <hr/>
+    @endif
     @yield('body')
 </div>
 
