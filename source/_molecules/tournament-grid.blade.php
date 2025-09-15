@@ -23,7 +23,7 @@
             'lines' => [
                 $t->gameFormat,
                 $t->date,
-                $t->entryFee
+                $isComplete ? '' : $t->entryFee,
             ],
         ])
         @endif

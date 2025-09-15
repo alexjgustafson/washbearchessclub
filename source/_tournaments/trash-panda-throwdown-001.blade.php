@@ -5,7 +5,7 @@ gameFormat: '4SS, G/40;+10'
 location: 'Louisville, KY'
 entryFee: '$30'
 date: 'Sept 14, 2025'
-complete: false
+complete: true
 ---
 
 @extends('_layouts.tournament')
@@ -21,7 +21,6 @@ complete: false
         <li>Entry fee: {{ $page->entryFee }}.</li>
         <li>Pay in cash on site or <a href="#contact">contact Alex</a> for Venmo.</li>
         <li>Limited to 16 players.</li>
-        <li>Register online <a href="#online-registration">using the Google Form below</a> (or <a href="#contact">contact Alex</a>) to secure your spot. On-site registration accepted up to capacity.</li>
     </ul>
 
     <h2 id="format">Format</h2>
@@ -75,12 +74,13 @@ complete: false
             <li>(502) 472-3042</li>
         </ul>
 
-    <h2>Current Registrations</h2>
-    <p>Last updated Sep 11, 2025</p>
-
-    <h3>Registered</h3>
+    <h2>Participants</h2>
     @include('_components.registration-table', ['registrations' => [
         [
+            'name' => 'Johnson, Jacob',
+            'id' => '30916362',
+            'rating' => '1868'
+        ],        [
             'name' => 'Gustafson, Alex',
             'id' => '12598530',
             'rating' => '1529'
@@ -100,21 +100,8 @@ complete: false
             'rating' => 'Unrated'
         ],                    [
             'name' => 'Mathis, Jordan Tyler',
-            'id' => null,
+            'id' => '32568134',
             'rating' => 'Unrated'
         ],
     ]])
-
-    <h3>Waitlist</h3>
-    @include('_components.registration-table', ['registrations' => []])
 @endsection
-
-@section('entry-form')
-    <div class="prose mx-auto dark:prose-invert">
-        <h2 id="online-registration" class="mb-8">Online Registration</h2>
-    </div>
-    <p class="bg-gray-100 mx-auto w-full flex justify-center p-4 lg:w-1/2 lg:rounded-xl shadow-lg shadow-gray-500 mb-8">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfS86ohRoL5lB4xQaTwo5Nj92WE85QG2GcwB2mCCgiy_2wGSg/viewform?embedded=true" width="640" height="1200">Loading…</iframe>
-    </p>
-@endsection
-
