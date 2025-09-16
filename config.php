@@ -13,4 +13,5 @@ return [
     ],
     'og:image' => 'https://washbearchess.club/assets/images/raccoon-with-rook-320x320.jpeg',
     'affiliateMsa' => 'https://www.uschess.org/msa/AffDtlTnmtHst.php?A9630067',
+    'currentYear' => date('Y'),
 ];
