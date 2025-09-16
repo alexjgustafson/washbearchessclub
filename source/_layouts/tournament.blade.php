@@ -54,9 +54,6 @@
 </div>
 
 @yield('entry-form')
-
-<div class="text-center text-xs mt-4 block">
-    <a href="/">< washbearchess.club</a>
-</div>
+@include('_molecules.global-footer')
 </body>
 </html>

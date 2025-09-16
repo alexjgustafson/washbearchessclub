@@ -22,7 +22,4 @@
             </div>
         </div>
     </div>
-    <div class="text-center text-xs mt-4 block">
-        <a href="/">< washbearchess.club</a>
-    </div>
 @endsection

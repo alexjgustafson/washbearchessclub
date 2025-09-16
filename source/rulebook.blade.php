@@ -30,10 +30,5 @@
 
     <h4 id="adjournments">Adjournments</h4>
     <p>Players may not request adjournments at WCC events. Directors will only adjourn a game in extraordinary circumstances.</p>
-    <hr/>
-</div>
-
-<div class="text-center text-xs my-4 block">
-    <a href="/">< washbearchess.club</a>
 </div>
 @endsection

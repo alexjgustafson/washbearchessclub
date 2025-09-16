@@ -28,5 +28,6 @@
             <p>US Chess Federation affiliate in Louisville, KY.</p>
         </div>
         @yield('body')
+        @include('_molecules.global-footer')
     </body>
 </html>

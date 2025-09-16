@@ -18,8 +18,4 @@
             <li>Contact at (502) 472-3042 or alexjgustafson@gmail.com</li>
         </ul>
     </div>
-
-    <div class="text-center text-xs my-4 block">
-        <a href="/">< washbearchess.club</a>
-    </div>
 @endsection
