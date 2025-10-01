@@ -12,7 +12,7 @@ date: 'Nov 8th, 2025'
 @section('body')
     <p>Classical chess for a classy club. 🦝♟️♣️</p>
     <p>Trash Panda Throwdowns are the WCC take on your friendly neighborhood USCF-rated tournament. Events use a variety of time controls.</p>
-    <p>For November 2025 we're taking it slow for three games of 60-minutes with a 30 second increment. Plenty of time for thoughtful endgames!</p>
+    <p>For November 2025 we're taking it slow for three games of 60 minutes with a 30-second increment. Plenty of time for thoughtful endgames!</p>
 
     <h2 id="registration">Registration</h2>
     <ul>
@@ -31,6 +31,7 @@ date: 'Nov 8th, 2025'
         <li>TD may create two sections if rating distribution warrants.</li>
         <li>Clocks and sets provided.</li>
         <li><a href="/rulebook">Players should review the Washbear Chess Club Rulebook.</a></li>
+        <li>Players may schedule one half-point bye if requested before Round 1 pairings.</li>
     </ul>
 
     <h2 id="prizes">Prizes</h2>
@@ -45,8 +46,8 @@ date: 'Nov 8th, 2025'
         <li>Nov 8th, 2025</li>
         <li>Registration: 9:30am - 10am</li>
         <li>Round 1: 10am</li>
-        <li>Round 2: 12:45pm or ASAP</li>
-        <li>Round 3: 3:30pm or ASAP</li>
+        <li>Round 2: 1pm or ASAP</li>
+        <li>Round 3: 4pm or ASAP</li>
     </ul>
 
     <h2 id="location">Location</h2>
@@ -70,8 +71,11 @@ date: 'Nov 8th, 2025'
         <li>(502) 472-3042</li>
     </ul>
 
-    <h2>Current Registrations</h2>
-    <p>Last updated Sep 11, 2025</p>
+    @if(FALSE)
+
+
+        <h2>Current Registrations</h2>
+    <p>Last updated Oct 1, 2025</p>
 
     <h3>Registered</h3>
 
@@ -95,7 +99,7 @@ date: 'Nov 8th, 2025'
                 [
                     'name' => 'Gustafson, Alex',
                     'id' => '12598530',
-                    'rating' => '1529'
+                    'rating' => '1507'
                 ],
 //                [
 //                    'name' => 'EXAMPLE NAME',
@@ -139,10 +143,11 @@ date: 'Nov 8th, 2025'
         </tbody>
     </table>
 
+    @endif
 @endsection
 
 @section('entry-form')
-    <div class="prose mx-auto">
+    <div class="prose mx-auto mt-16">
         <h2 id="online-registration" class="mb-8">Online Registration</h2>
     </div>
     <p class="bg-gray-100 mx-auto w-full flex justify-center p-4 lg:w-1/2 lg:rounded-xl shadow-lg shadow-gray-500 mb-8">
