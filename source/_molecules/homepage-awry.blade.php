@@ -9,7 +9,7 @@
 
 
 
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8 px-4 md:px-8 lg:px-16">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 px-8 md:px-16">
         <div>
             <img class="h-auto max-w-full rounded-lg" src="/assets/images/smiling-chess-players-at-awry.webp" alt="Two smiling men playing chess.">
         </div>
