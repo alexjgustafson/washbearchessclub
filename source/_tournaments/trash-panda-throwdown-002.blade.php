@@ -88,9 +88,19 @@ date: 'Nov 8th, 2025'
             'rating' => '1873'
         ],
         [
+            'name' => 'James D. Pollitt',
+            'id' => '12548696',
+            'rating' => '1873'
+        ],
+        [
             'name' => 'James Lawson',
             'id' => '12458634',
             'rating' => '1800'
+        ],
+        [
+            'name' => 'Robert Earl Drury',
+            'id' => '12593779',
+            'rating' => '1771'
         ],
         [
             'name' => 'Bryan Raye Miley',
