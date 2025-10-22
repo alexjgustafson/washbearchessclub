@@ -105,9 +105,14 @@ date: 'Nov 8th, 2025'
                     'rating' => '1873'
                 ],
                 [
-                    'name' => 'James  Lawson',
+                    'name' => 'James Lawson',
                     'id' => '12458634',
                     'rating' => '1800'
+                ],
+                [
+                    'name' => 'Bryan Raye Miley',
+                    'id' => '12936900',
+                    'rating' => '1486'
                 ],
                 [
                     'name' => 'Alex Gustafson',
