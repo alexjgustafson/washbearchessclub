@@ -71,11 +71,9 @@ date: 'Nov 8th, 2025'
         <li>(502) 472-3042</li>
     </ul>
 
-    @if(FALSE)
-
-
+    @if(TRUE)
         <h2>Current Registrations</h2>
-    <p>Last updated Oct 1, 2025</p>
+    <p>Last updated Oct 21, 2025</p>
 
     <h3>Registered</h3>
 
@@ -97,15 +95,35 @@ date: 'Nov 8th, 2025'
             <tbody>
             <?php $registrations = [
                 [
+                    'name' => 'Michael C Johnson',
+                    'id' => '12836501',
+                    'rating' => '1902'
+                ],
+                [
+                    'name' => 'Jacob Johnson',
+                    'id' => '30916362',
+                    'rating' => '1873'
+                ],
+                [
+                    'name' => 'James  Lawson',
+                    'id' => '12458634',
+                    'rating' => '1800'
+                ],
+                [
                     'name' => 'Gustafson, Alex',
                     'id' => '12598530',
-                    'rating' => '1507'
+                    'rating' => '1485'
                 ],
-//                [
-//                    'name' => 'EXAMPLE NAME',
-//                    'id' => '1234567890',
-//                    'rating' => '1234'
-//                ],
+                [
+                    'name' => 'Tyler Mathis',
+                    'id' => '32568134',
+                    'rating' => '1386'
+                ],
+                [
+                    'name' => 'Mitchell Richard Smith',
+                    'id' => '32628971',
+                    'rating' => '1364'
+                ],
             ]; ?>
             @foreach($registrations as $r)
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
