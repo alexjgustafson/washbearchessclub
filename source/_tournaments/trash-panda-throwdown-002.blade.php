@@ -110,7 +110,7 @@ date: 'Nov 8th, 2025'
                     'rating' => '1800'
                 ],
                 [
-                    'name' => 'Gustafson, Alex',
+                    'name' => 'Alex Gustafson',
                     'id' => '12598530',
                     'rating' => '1485'
                 ],
