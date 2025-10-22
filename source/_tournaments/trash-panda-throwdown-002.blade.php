@@ -71,102 +71,52 @@ date: 'Nov 8th, 2025'
         <li>(502) 472-3042</li>
     </ul>
 
-    @if(TRUE)
-        <h2>Current Registrations</h2>
+    <h2>Current Registrations</h2>
     <p>Last updated Oct 21, 2025</p>
 
     <h3>Registered</h3>
 
-    <div class="relative overflow-x-auto">
-        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-            <tr>
-                <th scope="col" class="px-6 py-3">
-                    Name
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    USCF ID
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Rating
-                </th>
-            </tr>
-            </thead>
-            <tbody>
-            <?php $registrations = [
-                [
-                    'name' => 'Michael C Johnson',
-                    'id' => '12836501',
-                    'rating' => '1902'
-                ],
-                [
-                    'name' => 'Jacob Johnson',
-                    'id' => '30916362',
-                    'rating' => '1873'
-                ],
-                [
-                    'name' => 'James Lawson',
-                    'id' => '12458634',
-                    'rating' => '1800'
-                ],
-                [
-                    'name' => 'Bryan Raye Miley',
-                    'id' => '12936900',
-                    'rating' => '1486'
-                ],
-                [
-                    'name' => 'Alex Gustafson',
-                    'id' => '12598530',
-                    'rating' => '1485'
-                ],
-                [
-                    'name' => 'Tyler Mathis',
-                    'id' => '32568134',
-                    'rating' => '1386'
-                ],
-                [
-                    'name' => 'Mitchell Richard Smith',
-                    'id' => '32628971',
-                    'rating' => '1364'
-                ],
-            ]; ?>
-            @foreach($registrations as $r)
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                        {{$r['name']}}
-                    </th>
-                    <td class="px-6 py-4">
-                        {{$r['id']}}
-                    </td>
-                    <td class="px-6 py-4">
-                        {{$r['rating']}}
-                    </td>
-                </tr>
-            @endforeach
-            </tbody>
-        </table>
-    </div>
+    @include('_components.registration-table', ['registrations' => [
+        [
+            'name' => 'Michael C Johnson',
+            'id' => '12836501',
+            'rating' => '1902'
+        ],
+        [
+            'name' => 'Jacob Johnson',
+            'id' => '30916362',
+            'rating' => '1873'
+        ],
+        [
+            'name' => 'James Lawson',
+            'id' => '12458634',
+            'rating' => '1800'
+        ],
+        [
+            'name' => 'Bryan Raye Miley',
+            'id' => '12936900',
+            'rating' => '1486'
+        ],
+        [
+            'name' => 'Alex Gustafson',
+            'id' => '12598530',
+            'rating' => '1485'
+        ],
+        [
+            'name' => 'Tyler Mathis',
+            'id' => '32568134',
+            'rating' => '1386'
+        ],
+        [
+            'name' => 'Mitchell Richard Smith',
+            'id' => '32628971',
+            'rating' => '1364'
+        ],
+    ]])
 
     <h3>Waitlist</h3>
-    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 mb-16">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-        <tr>
-            <th scope="col" class="px-6 py-3">
-                Name
-            </th>
-            <th scope="col" class="px-6 py-3">
-                USCF ID
-            </th>
-            <th scope="col" class="px-6 py-3">
-                Rating
-            </th>
-        </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>
+    @include('_components.registration-table', ['registrations' => []])
 
-    @endif
 @endsection
 
 @section('entry-form')
