@@ -72,7 +72,7 @@ date: 'Nov 8th, 2025'
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Oct 21, 2025</p>
+    <p>Last updated Oct 22, 2025</p>
 
     <h3>Registered</h3>
 
@@ -112,6 +112,11 @@ date: 'Nov 8th, 2025'
             'id' => '32628971',
             'rating' => '1364'
         ],
+        [
+            'name' => 'Trey Christopher Lemon',
+            'id' => '30461795',
+            'rating' => '1066'
+        ]
     ]])
 
     <h3>Waitlist</h3>
