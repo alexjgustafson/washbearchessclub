@@ -72,7 +72,7 @@ date: 'Nov 8th, 2025'
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Oct 22, 2025</p>
+    <p>Last updated Oct 23, 2025</p>
 
     <h3>Registered</h3>
 
@@ -120,16 +120,22 @@ date: 'Nov 8th, 2025'
         [
             'name' => 'Mitchell Richard Smith',
             'id' => '32628971',
-            'rating' => '1364'
+            'rating' => '1373'
         ],
         [
             'name' => 'Trey Christopher Lemon',
             'id' => '30461795',
             'rating' => '1066'
+        ],
+        [
+            'name' => 'Samuel Firn',
+            'id' => '32443539',
+            'rating' => '936'
         ]
     ]])
 
     <h3>Waitlist</h3>
+    <p>Once the 16 player spots are full, additional registrations will be placed on the waitlist in the order they are received.</p>
     @include('_components.registration-table', ['registrations' => []])
 
 @endsection
