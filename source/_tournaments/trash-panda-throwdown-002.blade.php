@@ -72,7 +72,7 @@ date: 'Nov 8th, 2025'
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Oct 23, 2025</p>
+    <p>Last updated Oct 24, 2025</p>
 
     <h3>Registered</h3>
 
@@ -131,6 +131,11 @@ date: 'Nov 8th, 2025'
             'name' => 'Samuel Firn',
             'id' => '32443539',
             'rating' => '936'
+        ],
+        [
+            'name' => 'Andrew Whiteman',
+            'id' => '32637327',
+            'rating' => 'Unrated'
         ]
     ]])
 
