@@ -91,6 +91,7 @@ date: 'Nov 8th, 2025'
     <p>Last updated Oct 26, 2025</p>
 
     <h3>Registered</h3>
+   <p>Update Oct 26, 2025: assuming all registrations remain, we'll split into a U1600 and Open section. Rated players in the U1600 section may "play up" into the open if requested.</p>
 
     @include('_components.registration-table', ['registrations' => [
         [
