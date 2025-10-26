@@ -88,7 +88,7 @@ date: 'Nov 8th, 2025'
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Oct 25, 2025</p>
+    <p>Last updated Oct 26, 2025</p>
 
     <h3>Registered</h3>
 
