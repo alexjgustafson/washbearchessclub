@@ -41,6 +41,9 @@ date: 'Nov 8th, 2025'
         <li>b/12: 1st place $70, 2nd place $40, 3rd place $30</li>
     </ul>
 
+    <h3 id="door-prize">Door Prize</h3>
+    <p>Gift certificate for Awry Brewing. Random drawing held immediately prior to round 3.</p>
+
     <h2 id="schedule">Schedule</h2>
     <ul>
         <li>Nov 8th, 2025</li>
@@ -63,6 +66,19 @@ date: 'Nov 8th, 2025'
     <p>From I-265 take the exit for Shelbyville Rd (US 60) westbound. At the first stoplight turn right onto N. English Station Road. To right onto Equity Place (across the street from Walmart Auto Care) and proceed around the building to the parking lot.</p>
     <p>When you enter the parking lot proceed to the far side of the building (see below.) Use the last door for Suite 200 and proceed upstairs.</p>
     <p><img src="/assets/images/equity-place.jpeg" alt="13000 Equity Place Satellite View"></p>
+
+    <h2 id="lunch">Lunch Order</h3>
+    <p>We'll be organizing a pizza order from Papa John's: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>
+    <p>$2 per slice, or $3 for every two slices of the same topping</p>
+
+    <h2 id-"post-tournament">Post-Tournament Hangout</h3>
+    <p>All players and friends are invited for dinner/drinks (and maybe some blitz?) after the tournament. Only 1/2 mile from the playing site.</p>
+    <address class="block">
+        El Nopal<br/>
+        12937 Shelbyville Rd<br/>
+        Louisville, KY 40243<br/>
+    </address>
+    <p><a href="https://maps.app.goo.gl/FZGESYNHTjCBV8yU8">Open in Google Maps</a></p>
 
     <h2 id="contact">Contact</h2>
     <ul>
