@@ -14,6 +14,9 @@
             <th scope="col" class="px-6 py-3">
                 Rating
             </th>
+            <th scope="col" class="px-6 py-3">
+                Byes
+            </th>
         </tr>
         </thead>
         <tbody>
@@ -39,6 +42,9 @@
                 </td>
                 <td class="px-6 py-4">
                     {{$r['rating']}}
+                </td>
+                <td class="px-6 py-4">
+                    {{$r['bye'] ?? ''}}
                 </td>
             </tr>
         @endforeach
