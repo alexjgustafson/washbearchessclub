@@ -125,11 +125,11 @@ date: 'Nov 8th, 2025'
             'id' => '12936900',
             'rating' => '1486'
         ],
-        [
-            'name' => 'Alex Gustafson',
-            'id' => '12598530',
-            'rating' => '1485'
-        ],
+//        [
+//            'name' => 'Alex Gustafson',
+//            'id' => '12598530',
+//            'rating' => '1485'
+//        ],
         [
             'name' => 'Tyler Mathis',
             'id' => '32568134',
