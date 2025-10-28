@@ -88,7 +88,7 @@ date: 'Nov 8th, 2025'
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Oct 26, 2025</p>
+    <p>Last updated Oct 27, 2025</p>
 
     <h3>Registered</h3>
    <p>Update Oct 26, 2025: assuming all registrations remain, we'll split into a U1600 and Open section. Rated players in the U1600 section may "play up" into the open if requested.</p>
@@ -102,7 +102,8 @@ date: 'Nov 8th, 2025'
         [
             'name' => 'Jacob Johnson',
             'id' => '30916362',
-            'rating' => '1873'
+            'rating' => '1873',
+            'bye' => 'Round 1',
         ],
         [
             'name' => 'James D. Pollitt',
