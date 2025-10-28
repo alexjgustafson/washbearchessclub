@@ -28,7 +28,7 @@
 </head>
 <body class="text-gray-900 font-sans antialiased dark:bg-black dark:text-white">
 
-<div class="py-8 mb-8 text-center">
+<div class="px-2 py-8 mb-8 text-center">
     <h1 class="text-3xl font-bold block">{{ $page->title }}</h1>
     <p>{{ $page->gameFormat }}</p>
     <p>{{ $page->location }}</p>
@@ -41,7 +41,7 @@
     </div>
 </div>
 
-<div class="prose mx-auto dark:prose-invert">
+<div class="prose mx-auto dark:prose-invert px-2">
     @if($page->complete)
         <h2>This Event is Complete.</h2>
 

@@ -103,7 +103,7 @@ date: 'Nov 8th, 2025'
             'name' => 'Jacob Johnson',
             'id' => '30916362',
             'rating' => '1873',
-            'bye' => 'Round 1',
+            'bye' => '1',
         ],
         [
             'name' => 'James D. Pollitt',
