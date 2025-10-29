@@ -15,6 +15,9 @@
             <li>
                 <a href="/tournaments" class="hover:underline me-4 md:me-6">Tournaments</a>
             </li>
+            <li>
+                <a href="/t-shirt" class="hover:underline me-4 md:me-6">T-Shirt</a>
+            </li>
         </ul>
     </div>
 </footer>
