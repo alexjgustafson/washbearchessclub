@@ -88,7 +88,7 @@ date: 'Nov 8th, 2025'
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Oct 27, 2025</p>
+    <p>Last updated Oct 29, 2025</p>
 
     <h3>Registered</h3>
    <p>Update Oct 26, 2025: assuming all registrations remain, we'll split into a U1600 and Open section. Rated players in the U1600 section may "play up" into the open if requested.</p>
@@ -166,6 +166,8 @@ date: 'Nov 8th, 2025'
             'rating' => 'Unrated'
         ]
     ]])
+
+    <p>TD Alex Gustafson will participate as a Permanent House Player (Rule 28M1) to reduce byes in either section.</p>
 
     <h3>Waitlist</h3>
     <p>Once the 16 player spots are full, additional registrations will be placed on the waitlist in the order they are received.</p>
