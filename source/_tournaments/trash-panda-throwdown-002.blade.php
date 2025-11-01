@@ -185,7 +185,12 @@ date: 'Nov 8th, 2025'
             'name' => 'Andrew Whiteman',
             'id' => '32637327',
             'rating' => 'Unrated'
-        ]
+        ],
+        [
+            'name' => 'Michael D Couron',
+            'id' => '32654477',
+            'rating' => 'Unrated'
+        ],
     ]])
 
     <h3>Notes</h3>
