@@ -191,8 +191,7 @@ date: 'Nov 8th, 2025'
     <h3>Notes</h3>
     <ul>
         <li>Players in the Reserve section may choose to play in the Open section instead.</li>
-        <li>To reduce byes, cross-section pairings may be used following the process in Rule 28M3.</li>
-        <li>Also to reduce byes, TD Alex Gustafson will participate as a Permanent House Player (Rule 28M1) in both sections.</li>
+        <li>To reduce unplayed games and byes, cross-section pairings (Rule 28M3) may be used and TD Alex Gustafson will participate as a Permanent House Player (Rule 28M1) in both sections.</li>
     </ul>
 
     <h3>Waitlist</h3>
