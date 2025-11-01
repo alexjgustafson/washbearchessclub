@@ -159,7 +159,7 @@ date: 'Nov 8th, 2025'
         [
             'name' => 'Mitchell Richard Smith',
             'id' => '32628971',
-            'rating' => '1373'
+            'rating' => '1313'
         ],
         [
             'name' => 'Trey Christopher Lemon',
@@ -174,7 +174,7 @@ date: 'Nov 8th, 2025'
         [
             'name' => 'Joshua Zaczek',
             'id' => '31886505',
-            'rating' => '925'
+            'rating' => '787'
         ],
         [
             'name' => 'Nelson A Penn',
