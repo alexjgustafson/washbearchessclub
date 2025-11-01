@@ -67,9 +67,33 @@ date: 'Nov 8th, 2025'
     <p>When you enter the parking lot proceed to the far side of the building (see below.) Use the last door for Suite 200 and proceed upstairs.</p>
     <p><img src="/assets/images/equity-place.jpeg" alt="13000 Equity Place Satellite View"></p>
 
-    <h2 id="lunch">Lunch Order</h3>
+    <h2 id="lunch">Lunch</h3>
     <p>We'll be organizing a pizza order from Papa John's: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>
     <p>$2 per slice, or $3 for every two slices of the same topping</p>
+
+    <h3>Other Nearby Food Options</h3>
+    <ul>
+        <li>Bento Asian Kitchen</li>
+        <li>Biscuit Belly</li>
+        <li>Chick-fil-A</li>
+        <li>Chipotle</li>
+        <li>Chubby Ninja Ramen and Sushi</li>
+        <li>Double Dogs Sports Bar</li>
+        <li>El Nopal</li>
+        <li>First Watch</li>
+        <li>Five Guys</li>
+        <li>Freddy's Frozen Custard</li>
+        <li>Green District Salads</li>
+        <li>Joella's Hot Chicken</li>
+        <li>Panda Express</li>
+        <li>Panera Bread</li>
+        <li>Qdoba</li>
+        <li>Sharetea</li>
+        <li>Tropical Smoothie Cafe</li>
+        <li>Waffle House</li>
+        <li>Wal-Mart</li>
+        <li>Wendy's</li>
+    </ul>
 
     <h2 id-"post-tournament">Post-Tournament Hangout</h3>
     <p>All players and friends are invited for dinner/drinks (and maybe some blitz?) after the tournament. Only 1/2 mile from the playing site.</p>
