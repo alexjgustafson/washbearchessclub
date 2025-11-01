@@ -42,7 +42,7 @@ date: 'Nov 8th, 2025'
     </ul>
 
     <h3 id="door-prize">Door Prize</h3>
-    <p>Gift certificate for Awry Brewing. Random drawing held immediately prior to round 3.</p>
+    <p>$10 Gift certificate for Awry Brewing. Random drawing held immediately prior to round 3.</p>
 
     <h2 id="schedule">Schedule</h2>
     <ul>
