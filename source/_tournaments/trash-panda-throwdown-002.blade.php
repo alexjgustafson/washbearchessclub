@@ -88,11 +88,9 @@ date: 'Nov 8th, 2025'
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Oct 29, 2025</p>
+    <p>Last updated Nov 1, 2025</p>
 
-    <h3>Registered</h3>
-   <p>Update Oct 26, 2025: assuming all registrations remain, we'll split into a U1600 and Open section. Rated players in the U1600 section may "play up" into the open if requested.</p>
-
+    <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
         [
             'name' => 'Michael C Johnson',
@@ -120,16 +118,15 @@ date: 'Nov 8th, 2025'
             'id' => '12593779',
             'rating' => '1771'
         ],
+    ]])
+
+    <h3>Raccoon Reserve (U1600)</h3>
+    @include('_components.registration-table', ['registrations' => [
         [
             'name' => 'Bryan Raye Miley',
             'id' => '12936900',
             'rating' => '1486'
         ],
-//        [
-//            'name' => 'Alex Gustafson',
-//            'id' => '12598530',
-//            'rating' => '1485'
-//        ],
         [
             'name' => 'Tyler Mathis',
             'id' => '32568134',
@@ -167,7 +164,12 @@ date: 'Nov 8th, 2025'
         ]
     ]])
 
-    <p>TD Alex Gustafson will participate as a Permanent House Player (Rule 28M1) to reduce byes in either section.</p>
+    <h3>Notes</h3>
+    <ul>
+        <li>Players in the Reserve section may choose to play in the Open section instead.</li>
+        <li>To reduce byes, cross-section pairings may be used following the process in Rule 28M3.</li>
+        <li>Also to reduce byes, TD Alex Gustafson will participate as a Permanent House Player (Rule 28M1) in both sections.</li>
+    </ul>
 
     <h3>Waitlist</h3>
     <p>Once the 16 player spots are full, additional registrations will be placed on the waitlist in the order they are received.</p>
