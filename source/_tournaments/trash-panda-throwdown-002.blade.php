@@ -112,10 +112,15 @@ date: 'Nov 8th, 2025'
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Nov 1, 2025</p>
+    <p>Last updated Nov 2, 2025</p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
+        [
+            'name' => 'Ryan Mccrea',
+            'id' => '13974684',
+            'rating' => '1929'
+        ],
         [
             'name' => 'Michael C Johnson',
             'id' => '12836501',
