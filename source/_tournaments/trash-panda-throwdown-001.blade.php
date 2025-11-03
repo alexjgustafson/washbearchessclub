@@ -6,7 +6,7 @@ location: 'Louisville, KY'
 entryFee: '$30'
 date: 'Sept 14, 2025'
 complete: true
-crosstable: 'https://www.uschess.org/msa/XtblMain.php?202509140232-12598530'
+crosstable: 'https://ratings.uschess.org/event/202509140232'
 ---
 
 @extends('_layouts.tournament')

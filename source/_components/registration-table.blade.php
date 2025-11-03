@@ -38,7 +38,7 @@
                         <?php $idDisplay = $r['id'] ?? '--';
                         $hasId = (bool) $r['id'];
                         echo sprintf('%s%s%s',
-                            $hasId ? '<a href="https://www.uschess.org/msa/MbrDtlMain.php?' . $idDisplay .'" target="_blank" rel="noopener noreferrer">' : '',
+                            $hasId ? '<a href="https://ratings.uschess.org/player/' . $idDisplay .'" target="_blank" rel="noopener noreferrer">' : '',
                             $idDisplay,
                             $hasId ? '</a>' : '',
                         ); ?>
