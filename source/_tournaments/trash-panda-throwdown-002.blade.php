@@ -67,7 +67,7 @@ date: 'Nov 8th, 2025'
     <p>When you enter the parking lot, proceed to the far side of the building (see below.) Use the last door for Suite 200, then take the stairs to the second floor.</p>
     <p><img src="/assets/images/equity-place.jpeg" alt="13000 Equity Place Satellite View"></p>
 
-    <h2 id="lunch">Lunch</h3>
+    <h2 id="lunch">Lunch</h2>
     <p>We'll be organizing a pizza delivery from Papa John's: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>
     <p>$2 per slice, or $3 for every two slices of the same topping</p>
 
