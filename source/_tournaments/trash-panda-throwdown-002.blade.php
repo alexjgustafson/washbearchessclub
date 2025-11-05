@@ -179,7 +179,8 @@ date: 'Nov 8th, 2025'
         [
             'name' => 'Nicholas Bryant',
             'id' => '32531865',
-            'rating' => '622'
+            'rating' => '622',
+            'bye' => '1',
         ],
         [
             'name' => 'Nelson A Penn',
