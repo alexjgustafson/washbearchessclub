@@ -19,7 +19,6 @@ date: 'Nov 8th, 2025'
         <li>Entry fee: $30.</li>
         <li>Pay in cash on site or <a href="#contact">contact Alex</a> for Venmo.</li>
         <li>Limited to 16 players.</li>
-        <li>Register online <a href="#online-registration">using the Google Form below</a> (or <a href="#contact">contact Alex</a>) to secure your spot. On-site registration accepted up to capacity.</li>
     </ul>
 
     <h2 id="format">Format</h2>
@@ -35,10 +34,10 @@ date: 'Nov 8th, 2025'
     </ul>
 
     <h2 id="prizes">Prizes</h2>
+    <p>In both sections:</p>
     <ul>
-        <li>b/4:  1st place $60</li>
-        <li>b/8:  1st place $65, 2nd place $35</li>
-        <li>b/12: 1st place $70, 2nd place $40, 3rd place $30</li>
+        <li>1st Place $65</li>
+        <li>2nd Place $35</li>
     </ul>
 
     <h3 id="door-prize">Door Prize</h3>
@@ -111,8 +110,8 @@ date: 'Nov 8th, 2025'
         <li>(502) 472-3042</li>
     </ul>
 
-    <h2>Current Registrations</h2>
-    <p>Last updated Nov 7, 2025</p>
+    <h2>Participants</h2>
+    <p>Last updated Nov 8, 2025</p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -147,6 +146,11 @@ date: 'Nov 8th, 2025'
             'id' => '12593779',
             'rating' => '1771'
         ],
+        [
+            'name' => 'Prathyun Dhanapalraj',
+            'id' => '30258472',
+            'rating' => '1472'
+        ]
     ]])
 
     <h3>Raccoon Reserve (U1600)</h3>
@@ -209,18 +213,4 @@ date: 'Nov 8th, 2025'
         <li>Players in the Reserve section may choose to play in the Open section instead.</li>
         <li>To reduce unplayed games and byes, cross-section pairings (Rule 28M3) may be used and TD Alex Gustafson will participate as a Permanent House Player (Rule 28M1) in both sections.</li>
     </ul>
-
-    <h3>Waitlist</h3>
-    <p>Once the 16 player spots are full, additional registrations will be placed on the waitlist in the order they are received.</p>
-    @include('_components.registration-table', ['registrations' => []])
-
-@endsection
-
-@section('entry-form')
-    <div class="prose mx-auto mt-16">
-        <h2 id="online-registration" class="mb-8">Online Registration</h2>
-    </div>
-    <p class="bg-gray-100 mx-auto w-full flex justify-center p-4 lg:w-1/2 lg:rounded-xl shadow-lg shadow-gray-500 mb-8">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdukGCHq3Wx611uVYqFBvH4z2KgVAHya1KpycdnDVaFFydQGQ/viewform?embedded=true" width="640" height="1200">Loading…</iframe>
-    </p>
 @endsection
