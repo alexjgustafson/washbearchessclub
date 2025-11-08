@@ -112,7 +112,7 @@ date: 'Nov 8th, 2025'
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Nov 5, 2025</p>
+    <p>Last updated Nov 7, 2025</p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -136,6 +136,11 @@ date: 'Nov 8th, 2025'
             'name' => 'James D. Pollitt',
             'id' => '12548696',
             'rating' => '1873'
+        ],
+        [
+            'name' => 'Aarush Papineni',
+            'id' => '31944202',
+            'rating' => '1801'
         ],
         [
             'name' => 'Robert Earl Drury',
