@@ -7,6 +7,7 @@ entryFee: '$30'
 date: 'January 31, 2026'
 complete: false
 crosstable: ''
+study: ''
 ---
 
 @extends('_layouts.tournament')
@@ -31,6 +32,7 @@ crosstable: ''
         <li>3 Rounds Swiss System</li>
         <li>G/60;+30</li>
         <li>Two sections: Open and U1400</li>
+        <li>Players under 1400 can play in the Open section only if they were rated over 1400 at any time in 2025 or 2026.</li>
         <li>Clocks and sets provided.</li>
         <li>US Chess Federation membership is required.</li>
         <li><a href="/rulebook">Players should review the Washbear Chess Club Rulebook.</a></li>
@@ -83,20 +85,35 @@ crosstable: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated Nov 8, 2025</p>
+    <p>Last updated Nov 9, 2025</p>
 
+    <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
-//        [
-//            'name' => 'Gustafson, Alex',
-//            'id' => '12598530',
-//            'rating' => '1507'
-//        ],
+        [
+            'name' => 'Jacob Johnson',
+            'id' => '30916362',
+            'rating' => '1873'
+        ],
+        [
+            'name' => 'Alex Gustafson',
+            'id' => '12598530',
+            'rating' => '1507'
+        ],
 //        [
 //            'name' => 'EXAMPLE NAME',
 //            'id' => '1234567890',
 //            'rating' => '1234'
 //        ],
     ]])
+
+    <h3>Raccoon Reserve (U1400)</h3>
+    @include('_components.registration-table', ['registrations' => [
+//        [
+//            'name' => 'EXAMPLE NAME',
+//            'id' => '1234567890',
+//            'rating' => '1234'
+//        ],
+]])
 
 @endsection
 
