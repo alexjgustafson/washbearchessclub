@@ -24,8 +24,6 @@ crosstable: ''
         <li>Entry fee: $30.</li>
         <li>Pay in cash on site or <a href="#contact">contact Alex</a> for Venmo.</li>
         <li>Register online <a href="#online-registration">using the Google Form below</a> (or <a href="#contact">contact Alex</a>) to secure your spot. On-site registration accepted up to capacity.</li>
-        <li>USCF membership is required.</li>
-        <li>Open to all ages and ratings.</li>
     </ul>
 
     <h2 id="format">Format</h2>
@@ -34,6 +32,7 @@ crosstable: ''
         <li>G/60;+30</li>
         <li>Two sections: Open and U1400</li>
         <li>Clocks and sets provided.</li>
+        <li>US Chess Federation membership is required.</li>
         <li><a href="/rulebook">Players should review the Washbear Chess Club Rulebook.</a></li>
         <li>Players may schedule one half-point bye if requested before Round 1 pairings.</li>
     </ul>
@@ -44,6 +43,8 @@ crosstable: ''
         <li>1st Place Open: $100</li>
         <li>1st Place U1400: $60</li>
     </ul>
+    <h3 id="door-prize">Door Prize</h3>
+    <p>$10 Gift certificate for Awry Brewing. Random drawing held immediately prior to round 3.</p>
 
     <h2 id="schedule">Schedule</h2>
     <ul>
@@ -69,6 +70,10 @@ crosstable: ''
     <p>For parking, pass the building and turn left on Crescent Avenue. Immediately turn left to park in the rear of the building.</p>
     <p><img src="/assets/images/chess-education-foundation-directions.png" alt="Chess Education Foundation from Satellite View"></p>
 
+    <h2 id="lunch">Lunch</h2>
+    <p>We'll be organizing a pizza delivery from Papa John's: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>
+    <p>$2 per slice, or $3 for every two slices of the same topping</p>
+
     <h2 id="contact">Contact</h2>
     <ul>
         <li>Alex Gustafson</li>
@@ -76,19 +81,16 @@ crosstable: ''
         <li>(502) 472-3042</li>
     </ul>
 
-    @if(FALSE)
 
     <h2>Current Registrations</h2>
-    <p>Last updated Oct 1, 2025</p>
-
-    <h3>Registered</h3>
+    <p>Last updated Nov 8, 2025</p>
 
     @include('_components.registration-table', ['registrations' => [
-        [
-            'name' => 'Gustafson, Alex',
-            'id' => '12598530',
-            'rating' => '1507'
-        ],
+//        [
+//            'name' => 'Gustafson, Alex',
+//            'id' => '12598530',
+//            'rating' => '1507'
+//        ],
 //        [
 //            'name' => 'EXAMPLE NAME',
 //            'id' => '1234567890',
@@ -96,7 +98,6 @@ crosstable: ''
 //        ],
     ]])
 
-    @endif
 @endsection
 
 @section('entry-form')
