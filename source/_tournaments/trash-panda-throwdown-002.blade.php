@@ -7,6 +7,7 @@ entryFee: '$30'
 date: 'Nov 8th, 2025'
 complete: true
 crosstable: 'https://ratings.uschess.org/event/202511080793'
+study: 'https://lichess.org/study/Uw6M6boS/u1mOm12J'
 ---
 
 @extends('_layouts.tournament')

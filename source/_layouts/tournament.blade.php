@@ -48,6 +48,9 @@
         @if($page->crosstable)
             <p><a href="{!! $page->crosstable !!}">View the US Chess Crosstable</a></p>
         @endif
+        @if($page->study)
+            <p><a href="{!! $page->study !!}">View player-submitted games in this Lichess study</a></p>
+        @endif
         <hr/>
     @endif
     @yield('body')
