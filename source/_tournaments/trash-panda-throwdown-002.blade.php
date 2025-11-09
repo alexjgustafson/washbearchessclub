@@ -5,6 +5,8 @@ gameFormat: '3SS, G/60;+30'
 location: 'Louisville, KY'
 entryFee: '$30'
 date: 'Nov 8th, 2025'
+complete: true
+crosstable: 'https://ratings.uschess.org/event/202511080793'
 ---
 
 @extends('_layouts.tournament')
