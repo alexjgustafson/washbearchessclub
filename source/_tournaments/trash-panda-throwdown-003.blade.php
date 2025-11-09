@@ -76,6 +76,9 @@ study: ''
     <p>We'll be organizing a pizza delivery from Papa John's: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>
     <p>$2 per slice, or $3 for every two slices of the same topping</p>
 
+    <h2 id-"post-tournament">Post-Tournament Hangout</h3>
+    <p>All players and friends are invited for dinner/drinks after the tournament. Location TBD.</p>
+
     <h2 id="contact">Contact</h2>
     <ul>
         <li>Alex Gustafson</li>
@@ -113,6 +116,11 @@ study: ''
 //            'id' => '1234567890',
 //            'rating' => '1234'
 //        ],
+        [
+            'name' => 'Andrew Whiteman',
+            'id' => '32637327',
+            'rating' => '992'
+        ],
 ]])
 
 @endsection
