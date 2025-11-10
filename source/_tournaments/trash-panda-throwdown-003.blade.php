@@ -88,7 +88,7 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated Nov 9, 2025</p>
+    <p>Last updated Nov 10, 2025</p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -117,9 +117,14 @@ study: ''
 //            'rating' => '1234'
 //        ],
         [
+            'name' => 'Mitchell Smith',
+            'id' => '32628971',
+            'rating' => '1286 (P9)'
+        ],
+        [
             'name' => 'Andrew Whiteman',
             'id' => '32637327',
-            'rating' => '992'
+            'rating' => '992 (P3)'
         ],
 ]])
 
