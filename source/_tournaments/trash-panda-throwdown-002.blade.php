@@ -97,7 +97,7 @@ study: 'https://lichess.org/study/Uw6M6boS/u1mOm12J'
         <li>Wendy's</li>
     </ul>
 
-    <h2 id-"post-tournament">Post-Tournament Hangout</h3>
+    <h2 id-"post-tournament">Post-Tournament Hangout</h2>
     <p>All players and friends are invited for dinner/drinks (and maybe some blitz?) after the tournament. Only 1/2 mile from the playing site.</p>
     <address class="block">
         El Nopal<br/>
