@@ -133,19 +133,19 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated Nov 10, 2025</p>
+    <p>Last updated Nov 12, 2025</p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
         [
             'name' => 'Jacob Johnson',
             'id' => '30916362',
-            'rating' => '1873'
+            'rating' => '1885'
         ],
         [
             'name' => 'Alex Gustafson',
             'id' => '12598530',
-            'rating' => '1507'
+            'rating' => '1529'
         ],
 //        [
 //            'name' => 'EXAMPLE NAME',
@@ -164,12 +164,12 @@ study: ''
         [
             'name' => 'Mitchell Smith',
             'id' => '32628971',
-            'rating' => '1286 (P9)'
+            'rating' => '1231 (P12)'
         ],
         [
             'name' => 'Andrew Whiteman',
             'id' => '32637327',
-            'rating' => '992 (P3)'
+            'rating' => '1033 (P6)'
         ],
 ]])
 
