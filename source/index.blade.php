@@ -5,8 +5,6 @@
     <img src="/assets/images/raccoon-with-rook-320x320.jpeg" alt="An AI-generated illustration of a raccoon holding a chess piece" width="320" height="320" class="inline-block my-8"/>
 </div>
 
-@include('_molecules.homepage-t-shirt')
-
 @include('_molecules.homepage-tournaments')
 
 @include('_molecules.homepage-awry')
