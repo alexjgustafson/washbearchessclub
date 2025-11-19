@@ -1,9 +1,14 @@
 {
     "require": {
         "tightenco/jigsaw": "^1.7",
-        "novaway/open-graph": "^0.9.0"
+        "novaway/open-graph": "^0.9.0",
+        "guzzlehttp/guzzle": "^7.10",
+        "illuminate/collections": "^12.39"
     },
     "autoload": {
         "psr-4": {"Washbear\\": "lib/"}
+    },
+    "scripts": {
+        "fetchPlayer": "php -r \"use function Alexjgustafson\\Washbearchessclub\\fetchPlayerInfo; require 'fetchPlayerInfo.php'; fetchPlayerInfo(@additional_args);\""
     }
 }
