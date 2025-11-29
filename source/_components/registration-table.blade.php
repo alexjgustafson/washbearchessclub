@@ -1,3 +1,4 @@
+<?php $showByesColumn =  $showByesColumn ?? true; ?>
 <div class="relative overflow-x-auto">
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase bg-gray-200 dark:bg-gray-700 dark:text-gray-400">
@@ -14,9 +15,11 @@
             <th scope="col" class="px-1 md:px-2 py-2 md:py-3">
                 Rating
             </th>
-            <th scope="col" class="px-1 md:px-2 py-2 md:py-3">
-                Byes
-            </th>
+            <?php if($showByesColumn): ?>
+                <th scope="col" class="px-1 md:px-2 py-2 md:py-3">
+                    Byes
+                </th>
+            <?php endif; ?>
         </tr>
         </thead>
         <tbody>
@@ -46,9 +49,12 @@
                 <td class="px-1 md:px-2 py-4 dark:text-white">
                     {{$r['rating']}}
                 </td>
-                <td class="px-1 md:px-2 py-4 dark:text-white">
-                    {{$r['bye'] ?? ''}}
-                </td>
+
+                <?php if($showByesColumn): ?>
+                    <td class="px-1 md:px-2 py-4 dark:text-white">
+                        {{$r['bye'] ?? ''}}
+                    </td>
+                <?php endif; ?>
             </tr>
         @endforeach
         </tbody>
