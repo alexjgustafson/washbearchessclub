@@ -131,9 +131,8 @@ study: ''
         <li>(502) 472-3042</li>
     </ul>
 
-
     <h2>Current Registrations</h2>
-    <p>Last updated Nov 19, 2025</p>
+    <p>Last updated Nov 29, 2025</p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -164,17 +163,17 @@ study: ''
         [
             'name' => 'Mitchell Smith',
             'id' => '32628971',
-            'rating' => '1239 (P15)'
+            'rating' => '1237'
         ],
         [
             'name' => 'Andrew Whiteman',
             'id' => '32637327',
-            'rating' => '1062 (P9)'
+            'rating' => '1062'
         ],
         [
             'name' => 'Joshua Zaczek',
             'id' => '31886505',
-            'rating' => '780 (P14)'
+            'rating' => '780'
         ],
 ]])
 
