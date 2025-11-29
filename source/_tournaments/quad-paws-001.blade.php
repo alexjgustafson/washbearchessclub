@@ -4,7 +4,7 @@ title: 'Quad Paws #1'
 gameFormat: 'Quads RR, G/30;+30'
 location: 'Louisville, KY'
 entryFee: '$25'
-date: 'TBD, February 2026'
+date: 'February 14, 2026'
 complete: false
 crosstable: ''
 study: ''
@@ -24,6 +24,7 @@ study: ''
         <li>Pay in cash on site or <a href="#contact">contact Alex</a> for Venmo.</li>
         <li>Register online <a href="#online-registration">using the Google Form below</a> (or <a href="#contact">contact Alex</a>) to secure your spot. On-site registration accepted up to capacity.</li>
         <li>No byes. Players are expected to play all rounds.</li>
+        <li>Registration may be restricted based on venue capacity. Register online to secure your spot.</li>
     </ul>
 
     <h2 id="format">Format</h2>
@@ -41,12 +42,12 @@ study: ''
 
     <h2 id="schedule">Schedule</h2>
     <ul>
-        <li>TBD, February 2026</li>
+        <li>Saturday, February 14th, 2026</li>
         <li>Registration: 9:30am - 10am</li>
         <li>Round 1: 10am</li>
-        <li>Lunch</li>
-        <li>Round 2: 12:30pm</li>
-        <li>Round 3: ASAP</li>
+        <li>Pizza delivered 11:30am</li>
+        <li>Round 2: ASAP (Approximately 12pm)</li>
+        <li>Round 3: ASAP (Approximately 2pm)</li>
     </ul>
 
     <h2 id="location">Location</h2>
