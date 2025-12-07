@@ -12,10 +12,15 @@
         <p>In April 2025, Alex Gustafson became a US Chess Club Tournament Director and created Washbear Chess Club in Louisville, KY.</p>
         <p>On July 1st, 2025, the club began its weekly meetup at Awry Brewing that still happens every Tuesday.</p>
         <p>On September 14th, 2025, the club organized its first US Chess rated tournament. Meetup regular Jacob Johnson won the event.</p>
+        <figure class="text-sm italic">
+            <p><img src="/assets/images/tournament-winner.webp" alt="Tournament Director Alex Gustafson awarding a Winner's certificate and cash prize to event winner Jacob Johnson" width="320" height="427" class="mb-0" />
+            </p>
+            <caption>Alex Gustafson awarding Jacob Johnson a Winner's certificate and cash prize.</caption>
+        </figure>
         <p>On December 1st, 2025, Alex became a US Chess Local Tournament Director.</p>
         <p>On December 6th, 2025, the club sponsored a team for the KY Team Chess Championship earning 2.0 points in 4 rounds.</p>
-        <figure class="text-sm">
-            <p><img src="/assets/images/ky-team-championship-2025.webp" alt="Members of the team in matching t-shirts pose for a portrait" width="320" height="612" class="inline-block my-8"/>
+        <figure class="text-sm italic">
+            <p><img src="/assets/images/ky-team-championship-2025.webp" alt="Members of the team in matching t-shirts pose for a portrait" width="320" height="355" class="mb-0" />
             </p>
             <caption>Members of the 2025 Team Championship team. Left to right: Tyler Mathis, Trey Lemon, Alex Gustafson, and Bryan Miley</caption>
         </figure>
