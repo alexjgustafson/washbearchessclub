@@ -10,6 +10,12 @@
         <p>On July 1st, 2025, the club began its weekly meetup at Awry Brewing that still happens every Tuesday.</p>
         <p>On September 14th, 2025, the club organized its first US Chess rated tournament. Meetup regular Jacob Johnson won the event.</p>
         <p>On December 1st, 2025, Alex became a US Chess Local Tournament Director.</p>
+        <p>On December 6th, 2025, the club sponsored a team for the KY Team Chess Championship earning 2.0 points in 4 rounds.</p>
+        <figure class="text-sm">
+            <p><img src="/assets/images/ky-team-championship-2025.webp" alt="Members of the team in matching t-shirts pose for a portrait" width="320" height="612" class="inline-block my-8"/>
+            </p>
+            <caption>Members of the 2025 Team Championship team. Left to right: Tyler Mathis, Trey Lemon, Alex Gustafson, and Bryan Miley</caption>
+        </figure>
 
         <h3>US Chess Affiliate</h3>
         <p><a href="{!! $page->affiliateMsa !!}">View the club's US Chess Federation tournament history.</a></p>
