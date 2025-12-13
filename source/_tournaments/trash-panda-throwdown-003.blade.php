@@ -132,7 +132,7 @@ study: ''
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Dec 7, 2025</p>
+    <p>Last updated Dec 13, 2025</p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -145,6 +145,11 @@ study: ''
             'name' => 'Alex Gustafson',
             'id' => '12598530',
             'rating' => '1529'
+        ],
+        [
+            'name' => 'Bryan Miley',
+            'id' => '12936900',
+            'rating' => '1466'
         ],
 //        [
 //            'name' => 'EXAMPLE NAME',
