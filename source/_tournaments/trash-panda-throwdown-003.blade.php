@@ -72,7 +72,7 @@ study: ''
     <p>For parking, pass the building and turn left on Crescent Avenue. Immediately turn left to park in the rear of the building.</p>
     <p>
         @img([
-            'src' => 'chess-education-foundation-directions.png',
+            'src' => 'chess-education-foundation-directions--medium.webp',
             'alt' => 'Chess Education Foundation from Satellite View'
         ])
     </p>

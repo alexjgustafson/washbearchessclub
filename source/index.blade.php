@@ -3,7 +3,7 @@
 @section('body')
 <div class="text-center">
     @img([
-    'src' => '/raccoon-with-rook-320x320.jpeg',
+    'src' => '/raccoon-with-rook-320x320.webp',
     'alt' => 'An AI-generated illustration of a raccoon holding a chess piece',
     'class' => 'inline-block my-8',
     'width' => '320',

@@ -67,7 +67,7 @@ crosstable: 'https://ratings.uschess.org/event/202509140232'
     <p>When you enter the parking lot proceed to the far side of the building (see below.) Use the last door for Suite 200 and proceed upstairs.
 </p>
     <p>        @img([
-        'src' => 'equity-place.jpeg',
+        'src' => 'equity-place--medium.webp',
         'alt' => '13000 Equity Place Satellite View'
         ])
     </p>

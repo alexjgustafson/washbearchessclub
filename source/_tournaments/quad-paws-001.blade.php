@@ -64,7 +64,7 @@ study: ''
     <p>When you enter the parking lot, proceed to the far side of the building (see below.) Use the last door for Suite 200, then take the stairs to the second floor.</p>
     <p>
         @img([
-        'src' => 'equity-place.jpeg',
+        'src' => 'equity-place--medium.webp',
         'alt' => '13000 Equity Place Satellite View'
         ])
     </p>

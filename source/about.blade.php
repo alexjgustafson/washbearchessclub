@@ -15,7 +15,7 @@
         <figure class="text-sm italic">
             <p>
                 @img([
-                    'src' => 'tournament-winner.webp',
+                    'src' => 'tournament-winner--small.webp',
                     'alt' => 'Tournament Director Alex Gustafson awarding a certificate and cash prize to event winner Jacob Johnson',
                     'class' => 'mb-0',
                     'width' => '320',
@@ -29,7 +29,7 @@
         <figure class="text-sm italic">
             <p>
                 @img([
-                    'src' => 'ky-team-championship-2025.webp',
+                    'src' => 'ky-team-championship-2025--small.webp',
                     'alt' => 'Members of the team in matching t-shirts pose for a portrait',
                     'width' => '320',
                     'height' => '355',

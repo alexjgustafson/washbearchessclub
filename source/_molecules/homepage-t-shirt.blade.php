@@ -11,14 +11,14 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 px-8 py-8 md:px-16">
             <div>
                 @img([
-                    'src' => 'fall-2025-shirt-alex.webp',
+                    'src' => 'fall-2025-shirt-alex--medium.webp',
                     'class' => 'h-auto max-w-full rounded-lg',
                     'alt' => 'Alex modelling the chess club Fall 2025 t-shirt design, featuring a fake 1960s style magazine cover.'
                 ])
             </div>
             <div>
                 @img([
-                'src' => 'fall-2025-shirt-design.webp',
+                'src' => 'fall-2025-shirt-design--medium.webp',
                 'class' => 'h-auto max-w-full rounded-lg',
                 'alt' => 'A black t-shirt with the design of a fake magazine featuring a raccoon playing a simul chess exhibition on the cover.'
                 ])
