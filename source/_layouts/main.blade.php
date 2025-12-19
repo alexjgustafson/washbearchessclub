@@ -23,12 +23,14 @@
         {!! (new OpenGraphRenderer)->render($og) !!}
     </head>
     <body class="text-gray-900 font-sans antialiased dark:bg-black dark:text-white">
-        <div class="py-8 mb-8 text-center">
-            <h1 class="text-3xl md:text-5xl font-bold block"><a href="/">Washbear Chess Club</a></h1>
-            <p class="md:text-lg
-            ">US Chess Federation affiliate in Louisville, KY.</p>
-        </div>
-        @yield('body')
+        <main role="main">
+            <div class="py-8 mb-8 text-center">
+                <h1 class="text-3xl md:text-5xl font-bold block"><a href="/">Washbear Chess Club</a></h1>
+                <p class="md:text-lg
+                ">US Chess Federation affiliate in Louisville, KY.</p>
+            </div>
+            @yield('body')
+        </main>
         @include('_molecules.global-footer')
     </body>
 </html>
