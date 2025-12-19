@@ -1,4 +1,6 @@
 <?php $status = $status ?? 'all'; ?>
+<?php $cardHeading = $cardHeading ?? ''; ?>
+
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
     @foreach($tournaments as $t)
         <?php
@@ -25,6 +27,7 @@
                 $t->date,
                 $isComplete ? '' : $t->entryFee,
             ],
+            'headingTag' => $cardHeading ? $cardHeading : null,
         ])
         @endif
     @endforeach
