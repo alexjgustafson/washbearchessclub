@@ -148,6 +148,11 @@ study: ''
         <h2 id="online-registration" class="mb-8">Online Registration</h2>
     </div>
     <p class="bg-gray-100 mx-auto w-full flex justify-center p-4 lg:w-1/2 lg:rounded-xl shadow-lg shadow-gray-500 mb-8">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBAAWQuTUxnDjjaJcMW7GgJImaKieAY2RCyEIHTVX0p9bWjQ/viewform?embedded=true" width="640" height="1200">Loading…</iframe>
+        <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeBAAWQuTUxnDjjaJcMW7GgJImaKieAY2RCyEIHTVX0p9bWjQ/viewform?embedded=true"
+            width="640"
+            height="1200"
+            title="Google form to register for the tournament"
+        >Loading…</iframe>
     </p>
 @endsection

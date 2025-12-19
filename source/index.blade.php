@@ -22,6 +22,11 @@
 </div>
 
 <div class="bg-gray-100 mx-auto w-full flex justify-center p-4 lg:w-1/2 lg:rounded-xl shadow-lg shadow-gray-500 mb-8">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSctxUYVUx1AapjRsfS_cHE0ABZwdTLsHEEeaPGjimT2UaATkQ/viewform?embedded=true" width="640" height="1100">Loading…</iframe>
+    <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSctxUYVUx1AapjRsfS_cHE0ABZwdTLsHEEeaPGjimT2UaATkQ/viewform?embedded=true"
+        width="640"
+        height="1100"
+        title="Google form to subscribe to email updates"
+    >Loading…</iframe>
 </div>
 @endsection
