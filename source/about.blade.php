@@ -20,6 +20,7 @@
                     'class' => 'mb-0',
                     'width' => '320',
                     'height' => '427'
+                    'fetchpriority' => 'high'
                 ])
             </p>
             <caption>Alex Gustafson awarding Jacob Johnson a winner's certificate and cash prize.</caption>
@@ -34,6 +35,7 @@
                     'width' => '320',
                     'height' => '355',
                     'class' => 'mb-0'
+                    'lazyload' => 'true'
                 ])
             </p>
             <caption>Members of the 2025 Kentucky Team Championship team. Left to right: Tyler Mathis, Trey Lemon, Alex Gustafson, and Bryan Miley</caption>

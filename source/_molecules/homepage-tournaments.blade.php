@@ -13,37 +13,52 @@
             @img([
                 'src' => 'trash-panda-throwdown-001-round-2-closeup--medium.webp',
                 'class' => 'h-auto max-w-full rounded-lg',
-                'alt'   => 'Players thinking during a tournament round.'
+                'alt'   => 'Players thinking during a tournament round.',
+                'width' => '450',
+                'height' => '600',
+                'lazyload' => 'true'
             ])
         </div>
         <div>
             @img([
                 'src' => 'tournament-fun--medium.webp',
                 'class' => 'h-auto max-w-full rounded-lg',
-                'alt' => 'Two players analyzing their game after a tournament round.'
+                'alt' => 'Two players analyzing their game after a tournament round.',
+                'lazyload' => 'true',
+                'width' => '450',
+                'height' => '600'
             ])
         </div>
         <div>
             @img([
                 'src' => 'trash-panda-throwdown-002-blitz--medium.webp',
                 'class' => 'h-auto max-w-full rounded-lg',
-                'alt' => 'Players laughing after a blitz game between rounds.'
+                'alt' => 'Players laughing after a blitz game between rounds.',
+                'lazyload' => 'true',
+                'width' => '450',
+                'height' => '600'
             ])
         </div>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 px-8 py-8 md:px-16">
         <div>
             @img([
-                'src' => 'trash-panda-throwdown-002-full--large.webp',
+                'src' => 'trash-panda-throwdown-002-full--medium.webp',
                 'class' => 'h-auto max-w-full rounded-lg',
-                'alt' => 'A full room of chess players at a tournament.'
+                'alt' => 'A full room of chess players at a tournament.',
+                'lazyload' => 'true',
+                'width' => '1200',
+                'height' => '900'
             ])
         </div>
         <div>
             @img([
-                'src' => 'trash-panda-throwdown-001-winner--large.webp',
+                'src' => 'trash-panda-throwdown-001-winner--medium.webp',
                 'class' => 'h-auto max-w-full rounded-lg',
-                'alt' => 'Tournament Director Alex Gustafson awarding a certificate and cash prize to event winner Jacob Johnson.'
+                'alt' => 'Tournament Director Alex Gustafson awarding a certificate and cash prize to event winner Jacob Johnson.',
+                'lazyload' => 'true',
+                'width' => '1200',
+                'height' => '900'
             ])
         </div>
     </div>

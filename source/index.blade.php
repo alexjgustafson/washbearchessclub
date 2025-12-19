@@ -8,6 +8,7 @@
     'class' => 'inline-block my-8',
     'width' => '320',
     'height' => '320',
+    'fetchpriority' => 'high'
     ])
 </div>
 
