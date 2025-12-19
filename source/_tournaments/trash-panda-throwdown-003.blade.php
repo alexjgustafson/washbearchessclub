@@ -70,7 +70,12 @@ study: ''
     <p>Turn right onto Brownsboro Road.</p>
     <p>The Chess Education Foundation is on the left, just past the Shell station.</p>
     <p>For parking, pass the building and turn left on Crescent Avenue. Immediately turn left to park in the rear of the building.</p>
-    <p><img src="/assets/images/chess-education-foundation-directions.png" alt="Chess Education Foundation from Satellite View"></p>
+    <p>
+        @img([
+            'src' => 'chess-education-foundation-directions.png',
+            'alt' => 'Chess Education Foundation from Satellite View'
+        ])
+    </p>
 
     <h2 id="lunch">Lunch</h2>
     <p>We'll be organizing a pizza delivery from Papa John's: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>

@@ -9,13 +9,25 @@
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 px-8 py-8 md:px-16">
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="/assets/images/smiling-chess-players-at-awry.webp" alt="Two smiling men playing chess.">
+            @img([
+            'src' => 'smiling-chess-players-at-awry.webp',
+            'alt' => 'Two smiling men playing chess.',
+            'class' => 'h-auto max-w-full rounded-lg'
+            ])
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="/assets/images/friends-playing-chess.webp" alt="A row of three of chess games in progress at a bar.">
+            @img([
+            'src' => 'friends-playing-chess.webp',
+            'alt' => 'A row of three of chess games in progress at a bar.',
+            'class' => 'h-auto max-w-full rounded-lg'
+            ])
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="/assets/images/casual-chess-in-louisville.webp" alt="Four people playing chess at separate tables with brewery tanks and hanging art in the background.">
+            @img([
+            'src' => 'casual-chess-in-louisville.webp',
+            'alt' => 'Four people playing chess at separate tables with brewery tanks and hanging art in the background.',
+            'class' => 'h-auto max-w-full rounded-lg'
+            ])
         </div>
     </div>
 

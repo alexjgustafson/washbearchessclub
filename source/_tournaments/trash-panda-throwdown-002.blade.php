@@ -67,7 +67,10 @@ study: 'https://lichess.org/study/Uw6M6boS/u1mOm12J'
     <h3 id="directions">Directions</h3>
     <p>From I-265 take the exit for Shelbyville Rd (US 60) westbound. At the first stoplight turn right onto N. English Station Road. Turn right onto Equity Place (across the street from Walmart Auto Care) and proceed around the building to the parking lot.</p>
     <p>When you enter the parking lot, proceed to the far side of the building (see below.) Use the last door for Suite 200, then take the stairs to the second floor.</p>
-    <p><img src="/assets/images/equity-place.jpeg" alt="13000 Equity Place Satellite View"></p>
+    <p>        @img([
+        'src' => 'equity-place.jpeg',
+        'alt' => '13000 Equity Place Satellite View'
+        ])</p>
 
     <h2 id="lunch">Lunch</h2>
     <p>We'll be organizing a pizza delivery from Papa John's: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>
