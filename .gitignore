@@ -1,6 +1,7 @@
 /build_local/
 /build_staging/
 /source/assets/build/
+/source/assets/images/
 /cache/
 /node_modules/
 /vendor/
