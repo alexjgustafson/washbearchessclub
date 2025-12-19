@@ -2,7 +2,13 @@
 
 @section('body')
 <div class="text-center">
-    <img src="/assets/images/raccoon-with-rook-320x320.jpeg" alt="An AI-generated illustration of a raccoon holding a chess piece" width="320" height="320" class="inline-block my-8"/>
+    @img([
+    'src' => '/raccoon-with-rook-320x320.jpeg',
+    'alt' => 'An AI-generated illustration of a raccoon holding a chess piece',
+    'class' => 'inline-block my-8',
+    'width' => '320',
+    'height' => '320',
+    ])
 </div>
 
 @include('_molecules.homepage-tournaments')
