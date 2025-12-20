@@ -2,6 +2,7 @@
 /build_staging/
 /source/assets/build/
 /source/assets/images/
+/build_production/assets/images/
 /cache/
 /node_modules/
 /vendor/
