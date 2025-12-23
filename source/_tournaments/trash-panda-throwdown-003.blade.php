@@ -137,53 +137,43 @@ study: ''
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Dec 13, 2025</p>
+    <p>Last updated Dec 23, 2025</p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
         [
             'name' => 'Jacob Johnson',
             'id' => '30916362',
-            'rating' => '1884'
-        ],
-        [
-            'name' => 'Alex Gustafson',
-            'id' => '12598530',
-            'rating' => '1529'
+            'rating' => '1890'
         ],
         [
             'name' => 'Bryan Miley',
             'id' => '12936900',
-            'rating' => '1466'
+            'rating' => '1498'
         ],
-//        [
-//            'name' => 'EXAMPLE NAME',
-//            'id' => '1234567890',
-//            'rating' => '1234'
-//        ],
+        [
+            'name' => 'Alex Gustafson',
+            'id' => '12598530',
+            'rating' => '1496'
+        ],
     ]])
 
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
-//        [
-//            'name' => 'EXAMPLE NAME',
-//            'id' => '1234567890',
-//            'rating' => '1234'
-//        ],
         [
             'name' => 'Mitchell Smith',
             'id' => '32628971',
-            'rating' => '1237'
+            'rating' => '1286'
         ],
         [
             'name' => 'Andrew Whiteman',
             'id' => '32637327',
-            'rating' => '1062'
+            'rating' => '1196'
         ],
         [
             'name' => 'Joshua Zaczek',
             'id' => '31886505',
-            'rating' => '780'
+            'rating' => '772'
         ],
         [
             'name' => 'Nelson Penn',
