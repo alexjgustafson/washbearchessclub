@@ -118,7 +118,7 @@ study: ''
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Dec 23, 2025</p>
+    <p>Last updated Jan 9, 2026</p>
 
     @include('_components.registration-table', [
     'showByesColumn' => false,
