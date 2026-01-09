@@ -137,7 +137,7 @@ study: ''
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Dec 23, 2025</p>
+    <p>Last updated Jan 9, 2026</p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -169,6 +169,11 @@ study: ''
             'name' => 'Andrew Whiteman',
             'id' => '32637327',
             'rating' => '1196'
+        ],
+        [
+          'name'   => 'Samuel Firn',
+          'id'     => '32443539',
+          'rating' => '967',
         ],
         [
             'name' => 'Joshua Zaczek',
