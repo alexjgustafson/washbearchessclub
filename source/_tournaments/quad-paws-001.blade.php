@@ -118,7 +118,7 @@ study: ''
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Jan 9, 2026</p>
+    <p>Last updated Jan 14, 2026</p>
 
     @include('_components.registration-table', [
     'showByesColumn' => false,
@@ -127,6 +127,11 @@ study: ''
             'name' => 'Alex Gustafson',
             'id' => '12598530',
             'rating' => '1496'
+        ],
+        [
+          'name'   => 'Tyler Mathis',
+          'id'     => '32568134',
+          'rating' => '1376',
         ],
         [
             'name' => 'Mitchell Smith',
