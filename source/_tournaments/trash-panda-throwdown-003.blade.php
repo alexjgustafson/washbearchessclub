@@ -137,7 +137,7 @@ study: ''
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Jan 19, 2026</p>
+    <p>Last updated Jan 20, 2026</p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -165,6 +165,11 @@ study: ''
 
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
+        [
+          'name'   => 'Tyler Mathis',
+          'id'     => '32568134',
+          'rating' => '1376',
+        ],
         [
             'name' => 'Mitchell Smith',
             'id' => '32628971',
