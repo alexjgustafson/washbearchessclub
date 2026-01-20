@@ -156,15 +156,15 @@ study: ''
             'id' => '12598530',
             'rating' => '1496'
         ],
-    ]])
-
-    <h3>Raccoon Reserve (U1400)</h3>
-    @include('_components.registration-table', ['registrations' => [
         [
           'name'   => 'Azamjan Tashtanov',
           'id'     => '30072153',
           'rating' => '1385',
         ],
+    ]])
+
+    <h3>Raccoon Reserve (U1400)</h3>
+    @include('_components.registration-table', ['registrations' => [
         [
             'name' => 'Mitchell Smith',
             'id' => '32628971',
