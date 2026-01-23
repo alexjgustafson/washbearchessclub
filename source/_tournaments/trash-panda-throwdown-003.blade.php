@@ -137,62 +137,72 @@ study: ''
     </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Jan 20, 2026</p>
+    <p>Last updated Jan 23, 2026</p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
         [
-            'name' => 'Jacob Johnson',
-            'id' => '30916362',
+            'name'   => 'Jacob Johnson',
+            'id'     => '30916362',
             'rating' => '1890'
         ],
         [
-            'name' => 'Bryan Miley',
-            'id' => '12936900',
+            'name'   => 'Bryan Miley',
+            'id'     => '12936900',
             'rating' => '1498'
         ],
         [
-            'name' => 'Alex Gustafson',
-            'id' => '12598530',
+            'name'   => 'Alex Gustafson',
+            'id'     => '12598530',
             'rating' => '1496'
         ],
         [
-          'name'   => 'Azamjan Tashtanov',
-          'id'     => '30072153',
-          'rating' => '1385',
+            'name'   => 'Azamjan Tashtanov',
+            'id'     => '30072153',
+            'rating' => '1385',
+        ],
+        [
+            'name'   => 'Zachary Morris',
+            'id'     => '12814520',
+            'rating' => '1025',
         ],
     ]])
 
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
         [
-          'name'   => 'Tyler Mathis',
-          'id'     => '32568134',
-          'rating' => '1376',
+            'name'   => 'Tyler Mathis',
+            'id'     => '32568134',
+            'rating' => '1376',
         ],
         [
-            'name' => 'Mitchell Smith',
-            'id' => '32628971',
+            'name'   => 'Mitchell Smith',
+            'id'     => '32628971',
             'rating' => '1286'
         ],
         [
-            'name' => 'Andrew Whiteman',
-            'id' => '32637327',
+            'name'   => 'Andrew Whiteman',
+            'id'     => '32637327',
             'rating' => '1196'
         ],
         [
-          'name'   => 'Samuel Firn',
-          'id'     => '32443539',
-          'rating' => '967',
+            'name'   => 'Samuel Firn',
+            'id'     => '32443539',
+            'rating' => '967',
         ],
         [
-            'name' => 'Joshua Zaczek',
-            'id' => '31886505',
+            'name'   => 'Gabriel Fajardo Cruz',
+            'id'     => '32570312',
+            'rating' => '835',
+        ],
+        [
+            'name'   => 'Joshua Zaczek',
+            'id'     => '31886505',
             'rating' => '772'
         ],
         [
-            'name' => 'Nelson Penn',
-            'id' => '13083535',
+            'name'   => 'Nelson Penn',
+            'id'     => '13083535',
             'rating' => '328'
         ],
 ]])
