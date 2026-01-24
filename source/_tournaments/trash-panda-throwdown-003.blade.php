@@ -205,6 +205,16 @@ study: ''
             'id'     => '13083535',
             'rating' => '328'
         ],
+        [
+            'name'   => 'Sitri Nikola Lowe',
+            'id'     => '32818144',
+            'rating' => 'Unrated',
+        ],
+        [
+            'name'   => 'Lucian Alexandar Lowe',
+            'id'     => '32818154',
+            'rating' => 'Unrated',
+        ],
 ]])
 
 @endsection
