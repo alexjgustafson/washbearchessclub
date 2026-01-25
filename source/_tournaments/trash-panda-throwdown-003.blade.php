@@ -206,6 +206,11 @@ study: ''
             'rating' => '328'
         ],
         [
+            'name'   => 'Michael Couron',
+            'id'     => '32654477',
+            'rating' => 'Unrated',
+        ],
+        [
             'name'   => 'Sitri Nikola Lowe',
             'id'     => '32818144',
             'rating' => 'Unrated',
