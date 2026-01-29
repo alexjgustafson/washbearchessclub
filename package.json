@@ -6,6 +6,7 @@
         "staging": "NODE_ENV=staging mix",
         "prod": "mix --production",
         "go": "mix && ./vendor/bin/jigsaw build",
+        "build": "./vendor/bin/jigsaw build",
         "serve": "./vendor/bin/jigsaw serve"
     },
     "devDependencies": {
