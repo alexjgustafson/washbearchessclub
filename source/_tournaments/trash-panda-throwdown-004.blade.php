@@ -47,6 +47,10 @@ study: ''
     <h3 id="door-prize">Door Prize</h3>
     <p>$10 Gift certificate for Awry Brewing.</p>
 
+    <div class="text-center my-8 block">
+        <a href="#online-registration" class="text-lg text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Enter the Tournament</a>
+    </div>
+
     <h2 id="schedule">Schedule</h2>
     <ul>
         <li>April 5, 2026</li>
@@ -76,6 +80,41 @@ study: ''
             'alt' => 'Chess Education Foundation from Satellite View'
         ])
     </p>
+@endsection
+
+@section('entry-form')
+    <div class="prose mx-auto mt-16">
+        <h2 id="online-registration" class="mb-8">Online Registration</h2>
+    </div>
+    <p class="bg-gray-100 mx-auto w-full flex justify-center p-4 lg:w-1/2 lg:rounded-xl shadow-lg shadow-gray-500 mb-8">
+        <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeCOWhkGHn56JEtcMJTM-t_u6dZPSjaZIcbNre1Er4YP8m3gA/viewform?embedded=true" 
+            width="640"
+            height="1200"
+            title="Google form to register for the tournament"
+        >Loading…</iframe>
+    </p>
+@endsection
+
+@section('secondary-body')
+    <h2 id="contact">Contact</h2>
+    <ul>
+        <li>Alex Gustafson</li>
+        <li>alexjgustafson@gmail.com</li>
+        <li>(502) 472-3042</li>
+    </ul>
+
+    <h2>Amenities</h2>
+    <p>Complimentary water and coffee will be provided.</p>
+
+    <h2 id-"post-tournament">Post-Tournament Hangout</h2>
+    <p>All players and friends are invited for dinner/drinks after the tournament.</p>
+    <address class="block">
+        El Nopal<br/>
+        811 Eastern Parkway <br/>
+        Louisville, KY 40217<br/>
+    </address>
+    <p><a href="https://maps.app.goo.gl/a33wMDumAhrmQzSR8">Open directions in Google Maps</a></p>
 
     <h2 id="lunch">Lunch</h2>
     <p>We'll be organizing a pizza delivery: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>
@@ -120,33 +159,4 @@ study: ''
         <li>Taqueria Los Gorditos</li>
     </ul>
 
-    <h2 id-"post-tournament">Post-Tournament Hangout</h2>
-    <p>All players and friends are invited for dinner/drinks after the tournament.</p>
-    <address class="block">
-        El Nopal<br/>
-        811 Eastern Parkway <br/>
-        Louisville, KY 40217<br/>
-    </address>
-    <p><a href="https://maps.app.goo.gl/a33wMDumAhrmQzSR8">Open directions in Google Maps</a></p>
-
-    <h2 id="contact">Contact</h2>
-    <ul>
-        <li>Alex Gustafson</li>
-        <li>alexjgustafson@gmail.com</li>
-        <li>(502) 472-3042</li>
-    </ul>
-@endsection
-
-@section('entry-form')
-    <div class="prose mx-auto mt-16">
-        <h2 id="online-registration" class="mb-8">Online Registration</h2>
-    </div>
-    <p class="bg-gray-100 mx-auto w-full flex justify-center p-4 lg:w-1/2 lg:rounded-xl shadow-lg shadow-gray-500 mb-8">
-        <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSeCOWhkGHn56JEtcMJTM-t_u6dZPSjaZIcbNre1Er4YP8m3gA/viewform?embedded=true" 
-            width="640"
-            height="1200"
-            title="Google form to register for the tournament"
-        >Loading…</iframe>
-    </p>
 @endsection

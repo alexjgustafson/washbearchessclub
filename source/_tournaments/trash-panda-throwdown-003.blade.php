@@ -48,6 +48,10 @@ study: ''
     <h3 id="door-prize">Door Prize</h3>
     <p>$10 Gift certificate for Awry Brewing.</p>
 
+     <div class="text-center my-8 block">
+        <a href="#online-registration" class="text-lg text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Enter the Tournament</a>
+    </div>
+
     <h2 id="schedule">Schedule</h2>
     <ul>
         <li>January 31, 2026</li>
@@ -77,67 +81,9 @@ study: ''
         ])
     </p>
 
-    <h2 id="lunch">Lunch</h2>
-    <p>We'll be organizing a pizza delivery: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>
-    <p>$2 per slice, or $3 for every two slices of the same topping</p>
-
-    <h3>Other Nearby Food Options</h3>
-    <h4>Walkable</h4>
-    <ul>
-        <li>KK African Kitchen</li>
-        <li>Lee's Famous Recipe Chicken</li>
-        <li>Shell Station (Convenience Store)</li>
-    </ul>
-    <h4>Less than 5 minute drive</h4>
-    <ul>
-        <li>Asian Wok</li>
-        <li>Blue Dog Bakery & Cafe</li>
-        <li>CM Chicken (Korean Fried Chicken)</li>
-        <li>Cafe Aroma (Mexican)</li>
-        <li>Caffe Classico (European)</li>
-        <li>Caspian Grill Persian Bistro</li>
-        <li>Crescent Hill Coffee</li>
-        <li>Derby City Pizza Co. Express</li>
-        <li>Eatz (Vietnamese)</li>
-        <li>Eggs Over Frankfort</li>
-        <li>FABD Smokehouse</li>
-        <li>Good Morning Breakfast & Brunch</li>
-        <li>The Grape Leaf (Mediterranean)</li>
-        <li>Heine Bros (Coffee Shop)</li>
-        <li>Island Breeze Restaurant (Jamaican)</li>
-        <li>Joely's Restaurant and Bar (Mexican)</li>
-        <li>Kroger</li>
-        <li>The Manhattan Project (Bar & Grill)</li>
-        <li>Mesh Louisville (Contemporary American)</li>
-        <li>Momma's Mustard, Pickles & BBQ</li>
-        <li>Osaka (Sushi)</li>
-        <li>Parlour (Pizza)</li>
-        <li>Please & Thank You (Coffee Shop)</li>
-        <li>Red Hog Restaurant & Butcher Shop</li>
-        <li>SmashD on Frankfort (Hamburgers)</li>
-        <li>Subway</li>
-        <li>Taco Bell</li>
-        <li>Taqueria Los Gorditos</li>
-    </ul>
-
-    <h2 id-"post-tournament">Post-Tournament Hangout</h2>
-    <p>All players and friends are invited for dinner/drinks after the tournament.</p>
-    <address class="block">
-        El Nopal<br/>
-        811 Eastern Parkway <br/>
-        Louisville, KY 40217<br/>
-    </address>
-    <p><a href="https://maps.app.goo.gl/a33wMDumAhrmQzSR8">Open directions in Google Maps</a></p>
-
-    <h2 id="contact">Contact</h2>
-    <ul>
-        <li>Alex Gustafson</li>
-        <li>alexjgustafson@gmail.com</li>
-        <li>(502) 472-3042</li>
-    </ul>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Jan 29, 2026</p>
+    <p>Last updated Jan 29, 2026. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -233,3 +179,68 @@ study: ''
     </p>
 @endsection
 
+@section('secondary-body')
+    <h2 id="contact">Contact</h2>
+    <ul>
+        <li>Alex Gustafson</li>
+        <li>alexjgustafson@gmail.com</li>
+        <li>(502) 472-3042</li>
+    </ul>
+
+    <h2>Amenities</h2>
+    <p>Complimentary water and coffee will be provided.</p>
+
+    <h2 id-"post-tournament">Post-Tournament Hangout</h2>
+    <p>All players and friends are invited for dinner/drinks after the tournament.</p>
+    <address class="block">
+        El Nopal<br/>
+        811 Eastern Parkway <br/>
+        Louisville, KY 40217<br/>
+    </address>
+    <p><a href="https://maps.app.goo.gl/a33wMDumAhrmQzSR8">Open directions in Google Maps</a></p>
+
+
+    <h2 id="lunch">Lunch</h2>
+    <p>We'll be organizing a pizza delivery: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>
+    <p>$2 per slice, or $3 for every two slices of the same topping</p>
+
+    <h3>Other Nearby Food Options</h3>
+    <h4>Walkable</h4>
+    <ul>
+        <li>KK African Kitchen</li>
+        <li>Lee's Famous Recipe Chicken</li>
+        <li>Shell Station (Convenience Store)</li>
+    </ul>
+    <h4>Less than 5 minute drive</h4>
+    <ul>
+        <li>Asian Wok</li>
+        <li>Blue Dog Bakery & Cafe</li>
+        <li>CM Chicken (Korean Fried Chicken)</li>
+        <li>Cafe Aroma (Mexican)</li>
+        <li>Caffe Classico (European)</li>
+        <li>Caspian Grill Persian Bistro</li>
+        <li>Crescent Hill Coffee</li>
+        <li>Derby City Pizza Co. Express</li>
+        <li>Eatz (Vietnamese)</li>
+        <li>Eggs Over Frankfort</li>
+        <li>FABD Smokehouse</li>
+        <li>Good Morning Breakfast & Brunch</li>
+        <li>The Grape Leaf (Mediterranean)</li>
+        <li>Heine Bros (Coffee Shop)</li>
+        <li>Island Breeze Restaurant (Jamaican)</li>
+        <li>Joely's Restaurant and Bar (Mexican)</li>
+        <li>Kroger</li>
+        <li>The Manhattan Project (Bar & Grill)</li>
+        <li>Mesh Louisville (Contemporary American)</li>
+        <li>Momma's Mustard, Pickles & BBQ</li>
+        <li>Osaka (Sushi)</li>
+        <li>Parlour (Pizza)</li>
+        <li>Please & Thank You (Coffee Shop)</li>
+        <li>Red Hog Restaurant & Butcher Shop</li>
+        <li>SmashD on Frankfort (Hamburgers)</li>
+        <li>Subway</li>
+        <li>Taco Bell</li>
+        <li>Taqueria Los Gorditos</li>
+    </ul>
+
+@endsection

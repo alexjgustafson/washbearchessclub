@@ -40,6 +40,10 @@ study: ''
     <p>$60 to the winner of each quad/section.</p>
     <p>$5 refunded to every player that plays all 3 rounds without withdrawal or forfeit.</p>
 
+    <div class="text-center my-8 block">
+        <a href="#online-registration" class="text-lg text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Enter the Tournament</a>
+    </div>
+
     <h2 id="schedule">Schedule</h2>
     <ul>
         <li>Saturday, February 14th, 2026</li>
@@ -69,56 +73,8 @@ study: ''
         ])
     </p>
 
-    <h2>Amenities</h2>
-    <p>Complimentary water, coffee, and soda will be provided.</p>
-    <p>A small amount of refridgerator space is available.</p>
-
-    <h2 id="lunch">Lunch</h2>
-    <p>We'll be organizing a pizza delivery from Papa John's: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>
-    <p>$2 per slice, or $3 for every two slices of the same topping</p>
-
-    <h3>Other Nearby Food Options</h3>
-    <ul>
-        <li>Bento Asian Kitchen</li>
-        <li>Biscuit Belly</li>
-        <li>Chick-fil-A</li>
-        <li>Chipotle</li>
-        <li>Chubby Ninja Ramen and Sushi</li>
-        <li>Double Dogs Sports Bar</li>
-        <li>El Nopal</li>
-        <li>First Watch</li>
-        <li>Five Guys</li>
-        <li>Freddy's Frozen Custard</li>
-        <li>Green District Salads</li>
-        <li>Joella's Hot Chicken</li>
-        <li>Panda Express</li>
-        <li>Panera Bread</li>
-        <li>Qdoba</li>
-        <li>Sharetea</li>
-        <li>Tropical Smoothie Cafe</li>
-        <li>Waffle House</li>
-        <li>Wal-Mart</li>
-        <li>Wendy's</li>
-    </ul>
-
-    <h2 id-"post-tournament">Post-Tournament Hangout</h2>
-    <p>All players and friends are invited for dinner/drinks after the tournament. Only 1/2 mile from the playing site.</p>
-    <address class="block">
-        El Nopal<br/>
-        12937 Shelbyville Rd<br/>
-        Louisville, KY 40243<br/>
-    </address>
-    <p><a href="https://maps.app.goo.gl/FZGESYNHTjCBV8yU8">Open in Google Maps</a></p>
-
-    <h2 id="contact">Contact</h2>
-    <ul>
-        <li>Alex Gustafson</li>
-        <li>alexjgustafson@gmail.com</li>
-        <li>(502) 472-3042</li>
-    </ul>
-
     <h2>Current Registrations</h2>
-    <p>Last updated Jan 29, 2026</p>
+    <p>Last updated Jan 29, 2026. <a href="#online-registration">Add your name to the list!</a></p>
 
     @include('_components.registration-table', [
     'showByesColumn' => false,
@@ -155,4 +111,55 @@ study: ''
             title="Google form to register for the tournament"
         >Loading…</iframe>
     </p>
+@endsection
+
+@section('secondary-body')
+
+    <h2 id="contact">Contact</h2>
+    <ul>
+        <li>Alex Gustafson</li>
+        <li>alexjgustafson@gmail.com</li>
+        <li>(502) 472-3042</li>
+    </ul>
+
+    <h2>Amenities</h2>
+    <p>Complimentary water, coffee, and soda will be provided.</p>
+
+    <h2 id-"post-tournament">Post-Tournament Hangout</h2>
+    <p>All players and friends are invited for dinner/drinks after the tournament. Only 1/2 mile from the playing site.</p>
+    <address class="block">
+        El Nopal<br/>
+        12937 Shelbyville Rd<br/>
+        Louisville, KY 40243<br/>
+    </address>
+    <p><a href="https://maps.app.goo.gl/FZGESYNHTjCBV8yU8">Open in Google Maps</a></p>
+
+    <h2 id="lunch">Lunch</h2>
+    <p>We'll be organizing a pizza delivery from Papa John's: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>
+    <p>$2 per slice, or $3 for every two slices of the same topping</p>
+
+    <h3>Other Nearby Food Options</h3>
+    <ul>
+        <li>Bento Asian Kitchen</li>
+        <li>Biscuit Belly</li>
+        <li>Chick-fil-A</li>
+        <li>Chipotle</li>
+        <li>Chubby Ninja Ramen and Sushi</li>
+        <li>Double Dogs Sports Bar</li>
+        <li>El Nopal</li>
+        <li>First Watch</li>
+        <li>Five Guys</li>
+        <li>Freddy's Frozen Custard</li>
+        <li>Green District Salads</li>
+        <li>Joella's Hot Chicken</li>
+        <li>Panda Express</li>
+        <li>Panera Bread</li>
+        <li>Qdoba</li>
+        <li>Sharetea</li>
+        <li>Tropical Smoothie Cafe</li>
+        <li>Waffle House</li>
+        <li>Wal-Mart</li>
+        <li>Wendy's</li>
+    </ul>
+
 @endsection
