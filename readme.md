@@ -1,6 +1,16 @@
 # washbearchess.club
 Website using Jigsaw, a PHP static site generator.
 
+# Tools
+
+## fetchPlayer
+
+`composer fetchPlayer 12598530`
+
+## calc-cash
+
+`composer calc-cash -- --prizes=100,60,30,30 --entry-fee=30 --expected=15`
+
 ---
 
 # Development

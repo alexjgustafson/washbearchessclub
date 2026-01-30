@@ -9,6 +9,7 @@
         "psr-4": {"Washbear\\": "lib/"}
     },
     "scripts": {
-        "fetchPlayer": "php -r \"use function Alexjgustafson\\Washbearchessclub\\fetchPlayerInfo; require 'fetchPlayerInfo.php'; fetchPlayerInfo(@additional_args);\""
+        "fetchPlayer": "php -r \"use function Alexjgustafson\\Washbearchessclub\\fetchPlayerInfo; require 'fetchPlayerInfo.php'; fetchPlayerInfo(@additional_args);\"",
+        "calc-cash": "php runCalculateCash.php"
     }
 }
