@@ -31,7 +31,7 @@ study: ''
         <li>4 Rounds Swiss System</li>
         <li>G/40;+10</li>
         <li>Two sections: Open and U1400</li>
-        <li>Players under 1400 can play in the Open section only if they were rated over 1400 at any time in 2025 or 2026.</li>
+        <li>Players under 1400 can play in the Open section only if they were rated over 1400 at any time in 2026.</li>
         <li>Clocks and sets provided.</li>
         <li>US Chess Federation membership is required.</li>
         <li><a href="/rulebook">Players should review the Washbear Chess Club Rulebook.</a></li>
@@ -80,6 +80,28 @@ study: ''
             'alt' => 'Chess Education Foundation from Satellite View'
         ])
     </p>
+
+    <h2>Current Registrations</h2>
+    <p>Last updated Jan 30, 2026. <a href="#online-registration">Add your name to the list!</a></p>
+
+    <h3>Washbear Open</h3>
+    @include('_components.registration-table', ['registrations' => [
+        [
+            'name'   => 'Alex Gustafson',
+            'id'     => '12598530',
+            'rating' => '1461'
+        ],
+    ]])
+
+    <h3>Raccoon Reserve (U1400)</h3>
+    @include('_components.registration-table', ['registrations' => [
+        [
+            'name'   => 'Keegan Gross',
+            'id'     => '31630703',
+            'rating' => '1343',
+        ],
+    ]])
+
 @endsection
 
 @section('entry-form')
