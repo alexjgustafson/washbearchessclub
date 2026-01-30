@@ -127,6 +127,11 @@ study: ''
             'rating' => '1286'
         ],
         [
+            'name'   => 'Jude Wells',
+            'id'     => '30380679',
+            'rating' => '1156',
+        ],
+        [
             'name'   => 'Samuel Firn',
             'id'     => '32443539',
             'rating' => '967',
