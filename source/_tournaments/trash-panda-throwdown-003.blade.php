@@ -83,7 +83,7 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated Jan 29, 2026. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated Jan 30, 2026. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
