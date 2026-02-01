@@ -56,7 +56,10 @@
             @yield('body')
         </div>
 
-        @yield('entry-form')
+        @if(!$page->complete)
+            @yield('entry-form')
+        @endif
+
 
         <div class="prose mx-auto dark:prose-invert px-2">
             @yield('secondary-body')
