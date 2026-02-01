@@ -74,7 +74,7 @@ study: ''
     </p>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Jan 30, 2026. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated Feb 1, 2026. <a href="#online-registration">Add your name to the list!</a></p>
 
     @include('_components.registration-table', [
     'showByesColumn' => false,
@@ -98,6 +98,11 @@ study: ''
             'name'   => 'Andrew Whiteman',
             'id'     => '32637327',
             'rating' => '1212',
+        ],
+        [
+            'name'   => 'Joshua Zaczek',
+            'id'     => '31886505',
+            'rating' => '772',
         ],
     ]])
 
@@ -141,7 +146,7 @@ study: ''
 
     <h2 id="lunch">Lunch</h2>
     <p>We'll be organizing a pizza delivery from Papa John's: choose from cheese, pepperoni, or mushroom. Purchase by the slice during registration at minimal cost.</p>
-    <p>$2 per slice, or $3 for every two slices of the same topping</p>
+    <p>$2 per slice.</p>
 
     <h3>Other Nearby Food Options</h3>
     <ul>
