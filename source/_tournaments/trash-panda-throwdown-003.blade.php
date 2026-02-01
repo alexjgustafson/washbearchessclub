@@ -5,8 +5,8 @@ gameFormat: '3SS, G/60;+30'
 location: 'Louisville, KY'
 entryFee: '$30'
 date: 'January 31, 2026'
-complete: false
-crosstable: ''
+complete: true
+crosstable: 'https://ratings.uschess.org/event/202601310763?section=0'
 study: ''
 ---
 
@@ -48,10 +48,6 @@ study: ''
     <h3 id="door-prize">Door Prize</h3>
     <p>$10 Gift certificate for Awry Brewing.</p>
 
-     <div class="text-center my-8 block">
-        <a href="#online-registration" class="text-lg text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Enter the Tournament</a>
-    </div>
-
     <h2 id="schedule">Schedule</h2>
     <ul>
         <li>January 31, 2026</li>
@@ -82,15 +78,24 @@ study: ''
     </p>
 
 
-    <h2>Current Registrations</h2>
-    <p>Last updated Jan 30, 2026. <a href="#online-registration">Add your name to the list!</a></p>
+    <h2>Participants</h2>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
         [
+            'name'   => 'Kyle railey',
+            'id'     => '31575525',
+            'rating' => '1898',
+        ],
+        [
             'name'   => 'Jacob Johnson',
             'id'     => '30916362',
             'rating' => '1890'
+        ],
+        [
+            'name'   => 'Nicholas M McVay',
+            'id'     => '30250952',
+            'rating' => '1791',
         ],
         [
             'name'   => 'Bryan Miley',
@@ -98,14 +103,19 @@ study: ''
             'rating' => '1498'
         ],
         [
-            'name'   => 'Alex Gustafson',
-            'id'     => '12598530',
-            'rating' => '1496'
-        ],
-        [
             'name'   => 'Azamjan Tashtanov',
             'id'     => '30072153',
             'rating' => '1385',
+        ],
+        [
+            'name'   => 'Tyler Mathis',
+            'id'     => '32568134',
+            'rating' => '1376',
+        ],
+        [
+            'name'   => 'Prathyun Dhanapalraj',
+            'id'     => '30258472',
+            'rating' => '1373',
         ],
         [
             'name'   => 'Zachary Morris',
@@ -117,14 +127,14 @@ study: ''
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
         [
-            'name'   => 'Tyler Mathis',
-            'id'     => '32568134',
-            'rating' => '1376',
-        ],
-        [
             'name'   => 'Mitchell Smith',
             'id'     => '32628971',
             'rating' => '1286'
+        ],
+        [
+            'name'   => 'Trey Christopher Lemon',
+            'id'     => '30461795',
+            'rating' => '1264',
         ],
         [
             'name'   => 'Jude Wells',
