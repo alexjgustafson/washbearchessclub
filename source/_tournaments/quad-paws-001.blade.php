@@ -74,7 +74,7 @@ study: ''
     </p>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Feb 1, 2026. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated Feb 4, 2026. <a href="#online-registration">Add your name to the list!</a></p>
 
     @include('_components.registration-table', [
     'showByesColumn' => false,
