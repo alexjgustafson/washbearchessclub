@@ -82,7 +82,7 @@ study: ''
     </p>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Feb 4, 2026. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated Feb 6, 2026. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -100,6 +100,11 @@ study: ''
 
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
+        [
+            'name'   => 'Tyler Mathis',
+            'id'     => '32568134',
+            'rating' => '1394',
+        ],
         [
             'name'   => 'Keegan Gross',
             'id'     => '31630703',
