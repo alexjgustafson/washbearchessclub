@@ -74,7 +74,7 @@ study: ''
     </p>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Feb 13, 2026. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated Feb 13, 2026 5:28 PM EDT. <a href="#online-registration">Add your name to the list!</a></p>
 
     @include('_components.registration-table', [
     'showByesColumn' => false,
@@ -83,6 +83,11 @@ study: ''
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
             'rating' => '1461'
+        ],
+        [
+            'name'   => 'Zachary Morris',
+            'id'     => '12814520',
+            'rating' => '1416',
         ],
         [   
             'name'   => 'Tyler Mathis',
