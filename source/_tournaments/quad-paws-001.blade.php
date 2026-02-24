@@ -5,8 +5,8 @@ gameFormat: 'Quads RR, G/30;+30'
 location: 'Louisville, KY'
 entryFee: '$25'
 date: 'February 14, 2026'
-complete: false
-crosstable: ''
+complete: true
+crosstable: 'https://ratings.uschess.org/event/202602140363'
 study: ''
 ---
 
@@ -40,10 +40,6 @@ study: ''
     <p>$60 to the winner of each quad/section.</p>
     <p>$5 refunded to every player that plays all 3 rounds without withdrawal or forfeit.</p>
 
-    <div class="text-center my-8 block">
-        <a href="#online-registration" class="text-lg text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Enter the Tournament</a>
-    </div>
-
     <h2 id="schedule">Schedule</h2>
     <ul>
         <li>Saturday, February 14th, 2026</li>
@@ -73,8 +69,7 @@ study: ''
         ])
     </p>
 
-    <h2>Current Registrations</h2>
-    <p>Last updated Feb 13, 2026 5:28 PM EDT. <a href="#online-registration">Add your name to the list!</a></p>
+    <h2>Participants</h2>
 
     @include('_components.registration-table', [
     'showByesColumn' => false,
