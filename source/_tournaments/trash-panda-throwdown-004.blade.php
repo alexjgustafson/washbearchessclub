@@ -82,33 +82,33 @@ study: ''
     </p>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Feb 13, 2026. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated Feb 23, 2026. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
         [
             'name'   => 'Jacob Johnson',
             'id'     => '30916362',
-            'rating' => '1873',
+            'rating' => '1899',
         ],
         [
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
-            'rating' => '1461'
+            'rating' => '1423'
         ],
     ]])
 
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
         [
-            'name'   => 'Tyler Mathis',
-            'id'     => '32568134',
-            'rating' => '1394',
-        ],
-        [
             'name'   => 'Keegan Gross',
             'id'     => '31630703',
             'rating' => '1343',
+        ],
+        [
+            'name'   => 'Tyler Mathis',
+            'id'     => '32568134',
+            'rating' => '1318',
         ],
     ]])
 
