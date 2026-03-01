@@ -88,11 +88,16 @@ study: ''
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
-        // [
-        //     'name'   => 'Kyle railey',
-        //     'id'     => '31575525',
-        //     'rating' => '1898',
-        // ],
+        [
+            'name'   => 'Bryan Raye Miley',
+            'id'     => '12936900',
+            'rating' => '1503',
+        ],
+        [
+            'name'   => 'Alex Gustafson',
+            'id'     => '12598530',
+            'rating' => '1423',
+        ],
     ]])
 
     <h3>Raccoon Reserve (U1400)</h3>
