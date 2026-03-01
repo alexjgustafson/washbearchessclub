@@ -110,6 +110,11 @@ study: ''
             'id'     => '32568134',
             'rating' => '1318',
         ],
+        [
+            'name'   => 'Joshua Zaczek',
+            'id'     => '31886505',
+            'rating' => '1044',
+        ],
     ]])
 
 @endsection
