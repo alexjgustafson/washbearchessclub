@@ -111,6 +111,11 @@ study: ''
             'rating' => '1318',
         ],
         [
+            'name'   => 'Andrew Whiteman',
+            'id'     => '32637327',
+            'rating' => '1266',
+        ],
+        [
             'name'   => 'Joshua Zaczek',
             'id'     => '31886505',
             'rating' => '1044',
