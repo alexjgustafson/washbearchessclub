@@ -116,6 +116,11 @@ study: ''
             'rating' => '1266',
         ],
         [
+            'name'   => 'Mitchell Smith',
+            'id'     => '32628971',
+            'rating' => '1163',
+        ],
+        [
             'name'   => 'Joshua Zaczek',
             'id'     => '31886505',
             'rating' => '1044',
