@@ -38,7 +38,7 @@ Create a GitHub Actions workflow that automates building and deploying the Jigsa
     - Verify the workflow structure matches the design (two jobs: build → deploy)
     - _Requirements: 1.1, 1.2, 1.3, 2.1, 2.2, 4.4_
 
-- [ ] 3. Checkpoint - Review and test
+- [x] 3. Checkpoint - Review and test
   - Ensure the workflow file is syntactically valid
   - Ask the user to: (1) change GitHub Pages source to "GitHub Actions" in repo settings, (2) push to `main` and verify the deployment succeeds at washbearchess.club
 
