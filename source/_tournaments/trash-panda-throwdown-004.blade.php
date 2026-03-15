@@ -92,6 +92,11 @@ study: ''
             'rating' => '1899',
         ],
         [
+            'name'   => 'Bryan Raye Miley',
+            'id'     => '12936900',
+            'rating' => '1503',
+        ],
+        [
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
             'rating' => '1423'
