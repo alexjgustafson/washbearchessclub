@@ -1,4 +1,4 @@
-# Implementation Plan: GitHub Pages CI/CD
+p# Implementation Plan: GitHub Pages CI/CD
 
 ## Overview
 
@@ -31,8 +31,8 @@ Create a GitHub Actions workflow that automates building and deploying the Jigsa
     - Configure deploy job with `github-pages` environment and `actions/deploy-pages@v4`
     - _Requirements: 2.1, 2.2, 2.3, 2.4_
 
-- [ ] 2. Validate workflow file
-  - [ ] 2.1 Verify the workflow YAML is valid
+- [x] 2. Validate workflow file
+  - [x] 2.1 Verify the workflow YAML is valid
     - Run `actionlint` or manually review the YAML for syntax correctness
     - Confirm all action versions are pinned (`@v4`, `@v3`, `@v2`)
     - Verify the workflow structure matches the design (two jobs: build → deploy)
