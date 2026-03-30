@@ -82,10 +82,15 @@ study: ''
     </p>
 
     <h2>Current Registrations</h2>
-    <p>Last updated Mar 19, 2026. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated Mar 30, 2026. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
+        [
+            'name'   => 'Michael Andrew Wright',
+            'id'     => '13567377',
+            'rating' => '1932',
+        ],
         [
             'name'   => 'Bryan Raye Miley',
             'id'     => '12936900',
@@ -94,7 +99,7 @@ study: ''
         [
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
-            'rating' => '1423'
+            'rating' => '1451'
         ],
     ]])
 
@@ -106,19 +111,19 @@ study: ''
             'rating' => '1343',
         ],
         [
-            'name'   => 'Tyler Mathis',
-            'id'     => '32568134',
-            'rating' => '1318',
-        ],
-        [
             'name'   => 'Andrew Whiteman',
             'id'     => '32637327',
-            'rating' => '1266',
+            'rating' => '1287',
+        ],
+        [
+            'name'   => 'Tyler Mathis',
+            'id'     => '32568134',
+            'rating' => '1240',
         ],
         [
             'name'   => 'Mitchell Smith',
             'id'     => '32628971',
-            'rating' => '1163',
+            'rating' => '1145',
         ],
         [
             'name'   => 'Joshua Zaczek',
