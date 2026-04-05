@@ -79,19 +79,9 @@ study: ''
     <h2>Participants</h2>
     @include('_components.registration-table', ['registrations' => [
         [
-            'name'   => 'Logan White',
-            'id'     => '15580358',
-            'rating' => '1900',
-        ],
-        [
             'name'   => 'Katie Yuan',
             'id'     => '16792316',
             'rating' => '1638',
-        ],
-        [
-            'name'   => 'Alex Gustafson',
-            'id'     => '12598530',
-            'rating' => '1451'
         ],
         [
             'name'   => 'Ethan Franklin',
