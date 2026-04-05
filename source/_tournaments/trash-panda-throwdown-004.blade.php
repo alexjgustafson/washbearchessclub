@@ -5,7 +5,7 @@ gameFormat: '4SS, G/40;+10'
 location: 'Louisville, KY'
 entryFee: '$30'
 date: 'April 5th, 2026'
-complete: false
+complete: true
 crosstable: ''
 study: ''
 ---
@@ -23,7 +23,6 @@ study: ''
     <ul>
         <li>Entry fee: $30.</li>
         <li>Pay in cash on site or <a href="#contact">contact Alex</a> for Venmo.</li>
-        <li>Register online <a href="#online-registration">using the Google Form below</a> (or <a href="#contact">contact Alex</a>) to secure your spot.</li>
     </ul>
 
     <h2 id="format">Format</h2>
@@ -46,10 +45,6 @@ study: ''
     </ul>
     <h3 id="door-prize">Door Prize</h3>
     <p>$10 Gift certificate for Awry Brewing.</p>
-
-    <div class="text-center my-8 block">
-        <a href="#online-registration" class="text-lg text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Enter the Tournament</a>
-    </div>
 
     <h2 id="schedule">Schedule</h2>
     <ul>
@@ -81,20 +76,28 @@ study: ''
         ])
     </p>
 
-    <h2>Current Registrations</h2>
-    <p>Last updated Apr 4, 2026. <a href="#online-registration">Add your name to the list!</a></p>
-
-    <h3>Washbear Open</h3>
+    <h2>Participants</h2>
     @include('_components.registration-table', ['registrations' => [
+        [
+            'name'   => 'Logan White',
+            'id'     => '15580358',
+            'rating' => '1900',
+        ],
+        [
+            'name'   => 'Katie Yuan',
+            'id'     => '16792316',
+            'rating' => '1638',
+        ],
         [
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
             'rating' => '1451'
         ],
-    ]])
-
-    <h3>Raccoon Reserve (U1400)</h3>
-    @include('_components.registration-table', ['registrations' => [
+        [
+            'name'   => 'Ethan Franklin',
+            'id'     => '32537303',
+            'rating' => '1389',
+        ],
         [
             'name'   => 'Keegan Gross',
             'id'     => '31630703',
@@ -127,20 +130,6 @@ study: ''
         ],
     ]])
 
-@endsection
-
-@section('entry-form')
-    <div class="prose mx-auto mt-16">
-        <h2 id="online-registration" class="mb-8">Online Registration</h2>
-    </div>
-    <p class="bg-gray-100 mx-auto w-full flex justify-center p-4 lg:w-1/2 lg:rounded-xl shadow-lg shadow-gray-500 mb-8">
-        <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSeCOWhkGHn56JEtcMJTM-t_u6dZPSjaZIcbNre1Er4YP8m3gA/viewform?embedded=true" 
-            width="640"
-            height="1200"
-            title="Google form to register for the tournament"
-        >Loading…</iframe>
-    </p>
 @endsection
 
 @section('secondary-body')
