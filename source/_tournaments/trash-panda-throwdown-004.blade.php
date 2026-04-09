@@ -6,7 +6,7 @@ location: 'Louisville, KY'
 entryFee: '$30'
 date: 'April 5th, 2026'
 complete: true
-crosstable: ''
+crosstable: 'https://ratings.uschess.org/event/202604050163'
 study: ''
 ---
 
