@@ -30,6 +30,7 @@ study: ''
         <li>G/60;+30</li>
         <li>Two sections: Open and U1400</li>
         <li>Players under 1400 can "play up" (in the Open section) only if they were rated 1400+ at some point in 2026.</li>
+        <li>TD may combine sections if low turnout.</li>
         <li>Clocks and sets provided.</li>
         <li>US Chess Federation membership is required.</li>
         <li><a href="/rulebook">Players should review the Washbear Chess Club Rulebook.</a></li>
