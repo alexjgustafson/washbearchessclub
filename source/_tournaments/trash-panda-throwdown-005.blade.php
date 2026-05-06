@@ -90,6 +90,11 @@ study: ''
             'rating' => '1985',
         ],
         [
+            'name'   => 'Michael C Johnson',
+            'id'     => '12836501',
+            'rating' => '1900',
+        ],
+        [
             'name'   => 'Bryan Raye Miley',
             'id'     => '12936900',
             'rating' => '1503',
