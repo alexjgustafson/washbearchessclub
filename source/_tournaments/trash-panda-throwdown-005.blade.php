@@ -42,8 +42,8 @@ study: ''
         <li>1st Place Open: $60</li>
         <li>1st Place U1400: $60</li>
     </ul>
-    <h3 id="door-prize">Door Prize</h3>
-    <p>$10 Gift certificate for Awry Brewing.</p>
+    <h3 id="door-prize">Pre-Registration Door Prize</h3>
+    <p>Pre-register online for a chance to win a $10 Awry Brewing gift card in our door prize drawing.</p>
 
     <div class="text-center my-8 block">
         <a href="#online-registration" class="text-lg text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Enter the Tournament</a>
