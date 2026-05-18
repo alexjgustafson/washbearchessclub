@@ -136,6 +136,11 @@ study: ''
             'rating' => '1262',
         ],
         [
+            'name'   => 'Andrew Whiteman',
+            'id'     => '32637327',
+            'rating' => '1221',
+        ],
+        [
             'name'   => 'Tyler Mathis',
             'id'     => '32568134',
             'rating' => '1176',
