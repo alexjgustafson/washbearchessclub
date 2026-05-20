@@ -151,6 +151,11 @@ study: ''
             'rating' => '1172',
         ],
         [
+            'name'   => 'Samuel Firn',
+            'id'     => '32443539',
+            'rating' => '895',
+        ],
+        [
             'name'   => 'Hayden Pierce Thompson',
             'id'     => '33111149',
             'rating' => 'Unrated',
