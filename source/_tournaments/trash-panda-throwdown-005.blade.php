@@ -106,6 +106,11 @@ study: ''
             'rating' => '1900',
         ],
         [
+            'name'   => 'Sidharth Sureshkumar',
+            'id'     => '30184317',
+            'rating' => '1794',
+        ],
+        [
             'name'   => 'M Zachary Morris',
             'id'     => '12814520',
             'rating' => '1719',
