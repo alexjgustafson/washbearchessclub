@@ -80,7 +80,7 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated May 22, 2026 9:14 PM EDT. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated May 22, 2026, 9:39 PM EDT. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -127,11 +127,6 @@ study: ''
             'bye'    => 'Rnds 2-3'
         ],
         [
-            'name'   => 'Alex Gustafson',
-            'id'     => '12598530',
-            'rating' => '1471',
-        ],
-        [
             'name'   => 'Alec Christopher Demore',
             'id'     => '31987586',
             'rating' => 'Unrated',
@@ -172,6 +167,9 @@ study: ''
             'rating' => 'Unrated',
         ],
     ]])
+
+    <h3>House Players</h3>
+    TD Alex Gustafson will offer extra games for players with unscheduled byes.
 
 @endsection
 
