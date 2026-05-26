@@ -85,15 +85,15 @@ study: ''
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
-        // [
-        //     'name'   => 'Kyle railey',
-        //     'id'     => '31575525',
-        //     'rating' => '1898',
-        // ],
         [
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
             'rating' => '1471',
+        ],
+        [
+            'name'   => 'David Andrew Durham',
+            'id'     => '30897955',
+            'rating' => '1361',
         ],
     ]])
 
