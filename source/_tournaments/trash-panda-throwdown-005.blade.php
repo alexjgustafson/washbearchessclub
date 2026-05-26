@@ -5,8 +5,8 @@ gameFormat: '3SS, G/60;+30'
 location: 'Louisville, KY'
 entryFee: '$30'
 date: 'May 23, 2026'
-complete: false
-crosstable: ''
+complete: true
+crosstable: 'https://ratings.uschess.org/event/202605230263'
 study: ''
 ---
 
@@ -75,21 +75,20 @@ study: ''
     </p>
 
 
-    <h2>Current Registrations</h2>
+    <h2>Participants</h2>
     <p>Last updated May 22, 2026, 10:01 PM EDT.</p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
         [
+            'name'   => 'Andy S Porter',
+            'id'     => '12425190',
+            'rating' => '2016',
+        ],
+        [
             'name'   => 'Jacob Johnson',
             'id'     => '30916362',
             'rating' => '1985',
-        ],
-        [
-            'name'   => 'Jason Bradley Skaggs',
-            'id'     => '12448456',
-            'rating' => '1916',
-            'bye'    => 'Round 3',
         ],
         [
             'name'   => 'Randas L Burns',
@@ -107,11 +106,6 @@ study: ''
             'rating' => '1794',
         ],
         [
-            'name'   => 'Hunter Hong',
-            'id'     => '17181855',
-            'rating' => '1728',
-        ],
-        [
             'name'   => 'M Zachary Morris',
             'id'     => '12814520',
             'rating' => '1719',
@@ -120,7 +114,6 @@ study: ''
             'name'   => 'Bryan Raye Miley',
             'id'     => '12936900',
             'rating' => '1503',
-            'bye'    => 'Rnds 2-3'
         ],
         [
             'name'   => 'Alec Christopher Demore',
@@ -132,6 +125,11 @@ study: ''
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
         [
+            'name'   => 'David Andrew Durham',
+            'id'     => '30897955',
+            'rating' => '1319',
+        ],
+        [
             'name'   => 'Tommy Tran',
             'id'     => '14946325',
             'rating' => '1262',
@@ -140,7 +138,6 @@ study: ''
             'name'   => 'Andrew Whiteman',
             'id'     => '32637327',
             'rating' => '1221',
-            'bye'    => 'Round 3',
         ],
         [
             'name'   => 'Tyler Mathis',
@@ -158,15 +155,16 @@ study: ''
             'rating' => '895',
         ],
         [
+            'name'   => 'Andrew C Scheiderich',
+            'id'     => '30675599',
+            'rating' => '211',
+        ],
+        [
             'name'   => 'Hayden Pierce Thompson',
             'id'     => '33111149',
             'rating' => 'Unrated',
         ],
     ]])
-
-    <h3>House Players</h3>
-    TD Alex Gustafson will offer extra games for players with unscheduled byes.
-
 @endsection
 
 @section('entry-form')
