@@ -1,5 +1,5 @@
 <div class="py-8 mb-8 text-center">
-    <h2 class="text-3xl md:text-5xl font-bold block">Knight Time at Awry</h2>
+    <h2 class="text-3xl md:text-5xl font-bold block">Every Tuesday at Awry</h2>
     <p class="py-2">Casual chess meetup.</p>
     <p class="py-2"><span class="font-bold">Tuesdays</span> 6pm - 10pm</p>
     <address class="py-4">
