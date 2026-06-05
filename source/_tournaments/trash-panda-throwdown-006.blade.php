@@ -81,7 +81,7 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated May 25, 2026. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated June 5, 2026. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -103,6 +103,11 @@ study: ''
             'name'   => 'Taswik Karthikeya Karri',
             'id'     => '33078349',
             'rating' => '687',
+        ],
+        [
+            'name'   => 'Gabriel Joseph Guernsey',
+            'id'     => '33153276',
+            'rating' => 'Unrated',
         ],
     ]])
 
