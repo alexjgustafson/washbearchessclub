@@ -81,10 +81,15 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated June 5, 2026. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated June 6, 2026 at 2:10pm. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
+        [
+            'name'   => 'Bryan Raye Miley',
+            'id'     => '12936900',
+            'rating' => '1503',
+        ],
         [
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
@@ -99,6 +104,11 @@ study: ''
 
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
+        [
+            'name'   => 'Tyler Mathis',
+            'id'     => '32568134',
+            'rating' => '1176',
+        ],
         [
             'name'   => 'Taswik Karthikeya Karri',
             'id'     => '33078349',
