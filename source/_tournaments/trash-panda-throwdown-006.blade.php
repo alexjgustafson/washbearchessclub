@@ -93,7 +93,7 @@ study: ''
         [
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
-            'rating' => '1471',
+            'rating' => '1468',
         ],
         [
             'name'   => 'David Andrew Durham',
@@ -112,7 +112,7 @@ study: ''
         [
             'name'   => 'Taswik Karthikeya Karri',
             'id'     => '33078349',
-            'rating' => '687',
+            'rating' => '697',
         ],
         [
             'name'   => 'Gabriel Joseph Guernsey',
