@@ -109,6 +109,11 @@ study: ''
 
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
+     [
+            'name'   => 'Tommy Tran',
+            'id'     => '14946325',
+            'rating' => '1262',
+        ],
         [
             'name'   => 'Tyler Mathis',
             'id'     => '32568134',
