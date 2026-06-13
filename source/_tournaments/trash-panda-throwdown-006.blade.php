@@ -137,14 +137,7 @@ study: ''
     <div class="prose mx-auto mt-16">
         <h2 id="online-registration" class="mb-8">Online Registration</h2>
     </div>
-    <p class="bg-gray-100 mx-auto w-full flex justify-center p-4 lg:w-1/2 lg:rounded-xl shadow-lg shadow-gray-500 mb-8">
-        <iframe 
-            src="https://docs.google.com/forms/d/e/1FAIpQLScZ290uKC5N3veyFBFMfhL-nq5k7Hpuawk-BhdPtMOCWN42WQ/viewform?embedded=true" 
-            width="640" 
-            height="1200"
-            title="Google form to register for the tournament"
-        >Loading…</iframe>
-    </p>
+    <p>Pre-registration is closed. Please register on-site.</p>
 @endsection
 
 @section('secondary-body')
