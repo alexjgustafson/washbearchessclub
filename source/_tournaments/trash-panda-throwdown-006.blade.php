@@ -80,9 +80,7 @@ study: ''
     </p>
 
 
-    <h2>Current Registrations</h2>
-    <p>Last updated June 11, 2026 at 6:56PM. <a href="#online-registration">Add your name to the list!</a></p>
-
+    <h2>Participants</h2>
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
         [
@@ -136,8 +134,8 @@ study: ''
 @section('entry-form')
     <div class="prose mx-auto mt-16">
         <h2 id="online-registration" class="mb-8">Online Registration</h2>
+        <p>Pre-registration is closed. Please register on-site.</p>
     </div>
-    <p>Pre-registration is closed. Please register on-site.</p>
 @endsection
 
 @section('secondary-body')
