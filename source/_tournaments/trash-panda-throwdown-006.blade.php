@@ -89,6 +89,11 @@ study: ''
             'rating' => '2000',
         ],
         [
+            'name'   => 'Jason S Dodd',
+            'id'     => '12399202',
+            'rating' => '1807',
+        ],
+        [
             'name'   => 'Bryan Raye Miley',
             'id'     => '12936900',
             'rating' => '1503',
@@ -103,11 +108,7 @@ study: ''
             'id'     => '30897955',
             'rating' => '1361',
         ],
-    ]])
-
-    <h3>Raccoon Reserve (U1400)</h3>
-    @include('_components.registration-table', ['registrations' => [
-     [
+        [
             'name'   => 'Tommy Tran',
             'id'     => '14946325',
             'rating' => '1262',
@@ -116,11 +117,6 @@ study: ''
             'name'   => 'Tyler Mathis',
             'id'     => '32568134',
             'rating' => '1176',
-        ],
-        [
-            'name'   => 'Taswik Karthikeya Karri',
-            'id'     => '33078349',
-            'rating' => '697',
         ],
         [
             'name'   => 'Gabriel Joseph Guernsey',
