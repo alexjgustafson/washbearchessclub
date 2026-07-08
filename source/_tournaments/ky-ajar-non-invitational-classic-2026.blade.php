@@ -103,11 +103,11 @@ study: ''
 
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
-        [
-            'name'   => 'Sam Firn',
-            'id'     => '32443539',
-            'rating' => '949'
-        ],
+        // [
+        //     'name'   => 'Sam Firn',
+        //     'id'     => '32443539',
+        //     'rating' => '949'
+        // ],
     ]])
 
 @endsection
