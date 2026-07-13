@@ -118,6 +118,11 @@ study: ''
             'id'     => '15701808',
             'rating' => '746',
         ],
+        [
+            'name'   => 'Maximus Muwanguzi',
+            'id'     => '33149971',
+            'rating' => '596',
+        ],
     ]])
 
 @endsection
