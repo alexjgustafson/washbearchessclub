@@ -100,6 +100,11 @@ study: ''
             'rating' => '1594',
         ],
         [
+            'name'   => 'Alec Christopher Demore',
+            'id'     => '31987586',
+            'rating' => '1567',
+        ],
+        [
             'name'   => 'Bryan Raye Miley',
             'id'     => '12936900',
             'rating' => '1564',
