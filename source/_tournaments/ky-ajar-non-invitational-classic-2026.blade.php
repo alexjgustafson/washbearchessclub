@@ -90,6 +90,11 @@ study: ''
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
         [
+            'name'   => 'George Miller',
+            'id'     => '12624079',
+            'rating' => '1956',
+        ],
+        [
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
             'rating' => '1594',
