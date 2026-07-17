@@ -148,6 +148,17 @@ study: ''
             'id'     => '33149971',
             'rating' => '596',
         ],
+                [
+            'name'   => 'Grace Gustafson',
+            'id'     => '31795758',
+            'rating' => '563',
+        ],
+        [
+         'name'   => 'Silas Killian Hall',
+            'id'     => '32793115',
+            'rating' => '277',
+            'bye' => '1, 2'
+        ]
     ]])
 
 @endsection
