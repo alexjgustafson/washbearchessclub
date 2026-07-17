@@ -85,7 +85,7 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated July 16, 2026 5:15pm. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated July 17, 2026 4:21pm. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -113,6 +113,11 @@ study: ''
             'name'   => 'Bryan Raye Miley',
             'id'     => '12936900',
             'rating' => '1564',
+        ],
+        [
+            'name'   => 'David Andrew Durham',
+            'id'     => '30897955',
+            'rating' => '1425',
         ],
     ]])
 
