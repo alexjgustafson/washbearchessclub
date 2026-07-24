@@ -5,8 +5,8 @@ gameFormat: '4SS, G/60;+30'
 location: 'Louisville, KY'
 entryFee: '$60'
 date: 'July 18-19, 2026'
-complete: false
-crosstable: ''
+complete: true
+crosstable: 'https://ratings.uschess.org/event/202607190063'
 study: ''
 ---
 
@@ -84,8 +84,7 @@ study: ''
     </p>
 
 
-    <h2>Current Registrations</h2>
-    <p>Last updated July 17, 2026 11:18pm. <a href="#online-registration">Add your name to the list!</a></p>
+    <h2>Pre-registrations</h2>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -118,11 +117,6 @@ study: ''
 
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
-        [
-            'name'   => 'Tommy Tran',
-            'id'     => '14946325',
-            'rating' => '1271',
-        ],
         [
             'name'   => 'Silas Clayton Matherly',
             'id'     => '30379901',
