@@ -82,7 +82,7 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated August 22, 2026 1:45pm. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated August 22, 2026 1:57pm. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -105,6 +105,11 @@ study: ''
             'id'     => '14946325',
             'rating' => '1278',
         ],
+        // [
+        //     'name'   => 'Andrew K Whiteman',
+        //     'id'     => '32637327',
+        //     'rating' => '1218',
+        // ],
         [
             'name'   => 'Samuel Firn',
             'id'     => '32443539',
@@ -114,6 +119,16 @@ study: ''
             'name'   => 'Gabriel Joseph Guernsey',
             'id'     => '33153276',
             'rating' => '572',
+        ],
+        [
+            'name'   => 'Andrew C Scheiderich',
+            'id'     => '30675599',
+            'rating' => '210',
+        ],
+        [
+            'name'   => 'Stephanie Dorelle Manning',
+            'id'     => '33137895',
+            'rating' => 'Unrated',
         ],
     ]])
 
