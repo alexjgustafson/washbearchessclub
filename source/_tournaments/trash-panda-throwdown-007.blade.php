@@ -5,7 +5,7 @@ gameFormat: '3SS, G/60;+30'
 location: 'Louisville, KY'
 entryFee: '$30'
 date: 'August 29, 2026'
-complete: false
+complete: true
 crosstable: ''
 study: ''
 ---
@@ -46,10 +46,6 @@ study: ''
     <h3 id="door-prize">Pre-Registration Door Prize</h3>
     <p>Pre-register online for a chance to win a $10 Awry Brewing gift card in our door prize drawing.</p>
 
-    <div class="text-center my-8 block">
-        <a href="#online-registration" class="text-lg text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Enter the Tournament</a>
-    </div>
-
     <h2 id="schedule">Schedule</h2>
     <ul>
         <li>August 29, 2026</li>
@@ -81,20 +77,18 @@ study: ''
 
 
 
-    <h2>Current Registrations</h2>
-    <p>Last updated August 28, 2026 10:27pm. <a href="#online-registration">Add your name to the list!</a></p>
-
-    <h3>Washbear Open</h3>
+    <h2>Participants</h2>
     @include('_components.registration-table', ['registrations' => [
         [
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
             'rating' => '1594',
         ],
-    ]])
-
-    <h3>Raccoon Reserve (U1400)</h3>
-    @include('_components.registration-table', ['registrations' => [
+        [
+            'name'   => 'Mitchell Richard Smith',
+            'id'     => '32628971',
+            'rating' => '1339',
+        ],
         [
             'name'   => 'Tommy Tran',
             'id'     => '14946325',
@@ -104,11 +98,6 @@ study: ''
             'name'   => 'Andrew K Whiteman',
             'id'     => '32637327',
             'rating' => '1218',
-        ],
-        [
-            'name'   => 'Tyler Mathis',
-            'id'     => '32568134',
-            'rating' => '1157',
         ],
         [
             'name'   => 'Doug Tzanetos',
@@ -142,16 +131,8 @@ study: ''
 @section('entry-form')
     <div class="prose mx-auto mt-16">
         <h2 id="online-registration" class="mb-8">Online Registration</h2>
+        <p>Pre-registration is closed. Please register on-site or contact Alex directly.</p>
     </div>
-        <p class="bg-gray-100 mx-auto w-full flex justify-center p-4 lg:w-1/2 lg:rounded-xl shadow-lg shadow-gray-500 mb-8">
-        <iframe 
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfNWr9Fh1zaaGgbsuRd2QmSuCD11L2zGFvCJMcep-5bAm8sjg/viewform?embedded=true" 
-            width="640" 
-            height="918" 
-            title="Google form to register for the tournament">
-            Loading…
-        </iframe>
-    </p>
 @endsection
 
 @section('secondary-body')
