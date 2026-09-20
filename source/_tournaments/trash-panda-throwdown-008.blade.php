@@ -89,7 +89,7 @@ study: ''
         [
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
-            'rating' => '1594',
+            'rating' => '1558',
         ],
         [
             'name'   => 'Andrew Whiteman',
