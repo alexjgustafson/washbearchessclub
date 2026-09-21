@@ -105,11 +105,11 @@ study: ''
 
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
-        // [
-        //     'name'   => 'Gabriel Joseph Guernsey',
-        //     'id'     => '33153276',
-        //     'rating' => '572',
-        // ],
+        [
+            'name'   => 'Vedanth Nair',
+            'id'     => '32122054',
+            'rating' => '1074',
+        ],
     ]])
 
 @endsection
