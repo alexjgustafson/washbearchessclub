@@ -44,7 +44,7 @@
 
 
     <!-- Modal backdrop and panel -->
-    <div x-show="open" class="fixed inset-0 bg-black bg-opacity-50 hidden md:flex items-center justify-center">
+    <div x-cloak x-show="open" class="fixed inset-0 bg-black bg-opacity-50 hidden md:flex items-center justify-center">
         <div class="bg-white p-6 rounded shadow-lg">
             <h2 class="text-xl font-bold accent mb-1">Subscribe to Club Emails</h2>
             <p class="mb-2">Use the Google Form below to opt into emails.</p>

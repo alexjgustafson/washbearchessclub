@@ -10,6 +10,10 @@
         <link rel="canonical" href="https://{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
         <title>{{ $page->title }}</title>
+        <!-- Hide Alpine-controlled elements until Alpine initializes; it strips
+             the x-cloak attribute on init. Inline so it applies before any
+             deferred script or external stylesheet can run. -->
+        <style>[x-cloak] { display: none !important; }</style>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
