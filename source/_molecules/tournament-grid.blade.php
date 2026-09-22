@@ -1,7 +1,8 @@
 <?php $status = $status ?? 'all'; ?>
 <?php $cardHeading = $cardHeading ?? ''; ?>
+<?php $gridClass = $gridClass ?? 'grid-cols-2 md:grid-cols-3'; ?>
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+<div class="grid {{ $gridClass }} gap-4">
     @foreach($tournaments as $t)
         <?php
             $isComplete = (bool) $t->complete;

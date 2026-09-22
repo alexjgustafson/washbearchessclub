@@ -14,7 +14,10 @@
 
 @include('_molecules.homepage-tournaments')
 
+@include('_molecules.homepage-blitz')
+
 @include('_molecules.homepage-awry')
+
 
 @include('_molecules.homepage-facebook')
 
