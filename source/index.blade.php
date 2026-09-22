@@ -31,14 +31,20 @@
 }"
      class="mb-8"
 >
-    <!-- Button to open the modal -->
-    <div class="text-center my-8 block">
+    <!-- Mobile: go straight to the Google-hosted form, since the embedded iframe
+         overflows small screens and hides the modal's close button. -->
+    <div class="text-center my-8 block md:hidden">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSctxUYVUx1AapjRsfS_cHE0ABZwdTLsHEEeaPGjimT2UaATkQ/viewform" target="_blank" rel="noopener" class="inline-block text-lg text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Subscribe</a>
+    </div>
+
+    <!-- Desktop: open the modal -->
+    <div class="text-center my-8 hidden md:block">
         <button @click="open = true" role="button" class="text-lg text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Subscribe</button>
     </div>
 
 
     <!-- Modal backdrop and panel -->
-    <div x-show="open" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <div x-show="open" class="fixed inset-0 bg-black bg-opacity-50 hidden md:flex items-center justify-center">
         <div class="bg-white p-6 rounded shadow-lg">
             <h2 class="text-xl font-bold accent mb-1">Subscribe to Club Emails</h2>
             <p class="mb-2">Use the Google Form below to opt into emails.</p>
