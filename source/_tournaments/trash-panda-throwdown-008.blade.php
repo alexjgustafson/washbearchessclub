@@ -109,6 +109,7 @@ study: ''
             'name'   => 'Simon Elliott',
             'id'     => '17158995',
             'rating' => '1131',
+            'bye'    => 'Round 3',
         ],
         [
             'name'   => 'Vedanth Nair',
