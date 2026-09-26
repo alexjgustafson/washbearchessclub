@@ -5,7 +5,7 @@ gameFormat: '3SS, G/60;+30'
 location: 'Louisville, KY'
 entryFee: '$30'
 date: 'September 26, 2026'
-complete: false
+complete: true
 crosstable: ''
 study: ''
 ---
