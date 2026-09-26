@@ -81,16 +81,9 @@ study: ''
 
 
 
-    <h2>Current Registrations</h2>
-    <p>Last updated September 25, 2026 11:03pm. <a href="#online-registration">Add your name to the list!</a></p>
+    <h2>Participants</h2>
 
-    <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
-        [
-            'name'   => 'Aaron J Haynes',
-            'id'     => '30499209',
-            'rating' => '1727',
-        ],
         [
             'name'   => 'Bryan Raye Miley',
             'id'     => '12936900',
@@ -106,25 +99,20 @@ study: ''
             'id'     => '32637327',
             'rating' => '1322',
         ],
-    ]])
-
-    <h3>Raccoon Reserve (U1400)</h3>
-    @include('_components.registration-table', ['registrations' => [
         [
             'name'   => 'Simon Elliott',
             'id'     => '17158995',
             'rating' => '1131',
-            'bye'    => 'Round 3',
-        ],
-        [
-            'name'   => 'Vedanth Nair',
-            'id'     => '32122054',
-            'rating' => '1074',
         ],
         [
             'name'   => 'Ark Singh',
             'id'     => '32378300',
             'rating' => '659',
+        ],
+        [
+            'name'   => 'Andrew C Scheiderich',
+            'id'     => '30675599',
+            'rating' => '210 (P17)',
         ],
     ]])
 
