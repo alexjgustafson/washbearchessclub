@@ -6,7 +6,7 @@ location: 'Louisville, KY'
 entryFee: '$30'
 date: 'September 26, 2026'
 complete: true
-crosstable: ''
+crosstable: 'https://ratings.uschess.org/event/202609260263'
 study: ''
 ---
 
