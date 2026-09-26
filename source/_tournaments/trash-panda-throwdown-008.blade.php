@@ -82,10 +82,15 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated September 25, 2026 7:32pm. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated September 25, 2026 9:37pm. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
+        [
+            'name'   => 'Aaron J Haynes',
+            'id'     => '30499209',
+            'rating' => '1727',
+        ],
         [
             'name'   => 'Bryan Raye Miley',
             'id'     => '12936900',
@@ -115,6 +120,11 @@ study: ''
             'name'   => 'Vedanth Nair',
             'id'     => '32122054',
             'rating' => '1074',
+        ],
+        [
+            'name'   => 'Ark Singh',
+            'id'     => '32378300',
+            'rating' => '659',
         ],
     ]])
 
