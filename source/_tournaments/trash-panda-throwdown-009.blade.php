@@ -82,7 +82,7 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated October 3, 2026. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated October 4, 2026. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -90,6 +90,11 @@ study: ''
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
             'rating' => '1559',
+        ],
+        [
+            'name'   => 'Tommy Tran',
+            'id'     => '14946325',
+            'rating' => '1337',
         ],
     ]])
 
