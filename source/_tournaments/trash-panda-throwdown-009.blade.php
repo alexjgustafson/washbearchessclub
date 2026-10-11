@@ -106,6 +106,11 @@ study: ''
     <h3>Raccoon Reserve (U1400)</h3>
     @include('_components.registration-table', ['registrations' => [
         [
+            'name'   => 'Mitchell Richard Smith',
+            'id'     => '32628971',
+            'rating' => '1346',
+        ],
+        [
             'name'   => 'AJ Fischer',
             'id'     => '31748989',
             'rating' => '103 (P4)',
