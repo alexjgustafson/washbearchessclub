@@ -111,6 +111,11 @@ study: ''
             'rating' => '1346',
         ],
         [
+            'name'   => 'Gabriel Joseph Guernsey',
+            'id'     => '33153276',
+            'rating' => '654 (P12)',
+        ],
+        [
             'name'   => 'AJ Fischer',
             'id'     => '31748989',
             'rating' => '103 (P4)',
