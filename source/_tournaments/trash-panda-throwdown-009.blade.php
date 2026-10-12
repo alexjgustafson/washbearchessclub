@@ -92,6 +92,11 @@ study: ''
             'rating' => '1968',
         ],
         [
+            'name'   => 'Zach Morris',
+            'id'     => '12814520',
+            'rating' => '1741',
+        ],
+        [
             'name'   => 'Alex Gustafson',
             'id'     => '12598530',
             'rating' => '1559',
