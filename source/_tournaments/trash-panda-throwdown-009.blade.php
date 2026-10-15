@@ -107,6 +107,11 @@ study: ''
             'rating' => '1559',
         ],
         [
+            'name'   => 'Robert Moss',
+            'id'     => '31941438',
+            'rating' => '1540 (P13)',
+        ],
+        [
             'name'   => 'Tommy Tran',
             'id'     => '14946325',
             'rating' => '1337',
