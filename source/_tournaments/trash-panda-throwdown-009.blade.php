@@ -115,11 +115,14 @@ study: ''
             'name'   => 'Tommy Tran',
             'id'     => '14946325',
             'rating' => '1337',
+            'note'   => 'Live rating 1420 on 9/19/26',
+
         ],
         [
             'name'   => 'Beck Chandler',
             'id'     => '33150937',
             'rating' => '1265',
+            'note'   => 'Live rating 1413 on 9/29/26',
         ],
     ]])
 
