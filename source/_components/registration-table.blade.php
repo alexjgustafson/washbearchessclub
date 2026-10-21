@@ -1,4 +1,4 @@
-<?php $showByesColumn =  $showByesColumn ?? true; ?>
+<?php $showByesColumn = $showByesColumn ?? collect($registrations)->contains(fn ($r) => !empty($r['bye'])); ?>
 <div class="relative overflow-x-auto">
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase bg-gray-200 dark:bg-gray-700 dark:text-gray-400">
