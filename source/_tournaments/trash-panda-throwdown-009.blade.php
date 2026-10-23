@@ -82,7 +82,7 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated October 23, 2026 9:19am. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated October 23, 2026 10:15am. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -152,6 +152,11 @@ study: ''
             'name'   => 'Tyler Mathis',
             'id'     => '32568134',
             'rating' => '1157',
+        ],
+        [
+            'name'   => 'Simon Elliott',
+            'id'     => '17158995',
+            'rating' => '1131',
         ],
         [
             'name'   => 'Samuel Firn',
