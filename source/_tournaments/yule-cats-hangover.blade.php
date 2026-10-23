@@ -7,6 +7,7 @@ entryFee: 'Pay What You Want'
 date: 'December 26, 2026'
 complete: false
 hideEntryButton: true
+eventType: 'special'
 crosstable: ''
 study: ''
 ---
@@ -36,6 +37,7 @@ study: ''
 
     <h3 id="random-rounds">Every Round is Random</h3>
     <p>Each round's setup is drawn at random a few minutes before the hour, after pairings are settled. Nobody knows what's coming.</p>
+    <p>Want a preview? <a href="/yule-cat-calculator">Try the Yule Cat Calculator</a> to see what the cat might choose.</p>
     <ul>
         <li><strong>Starting position:</strong> Standard or a random Chess960 position</li>
         <li><strong>Base time:</strong> G/20, G/15, or G/10</li>
