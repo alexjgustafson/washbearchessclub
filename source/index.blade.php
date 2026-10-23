@@ -12,6 +12,8 @@
     ])
 </div>
 
+@include('_molecules.homepage-yule-cat')
+
 @include('_molecules.homepage-tournaments')
 
 @include('_molecules.homepage-blitz')

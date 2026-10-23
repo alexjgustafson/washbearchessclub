@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
+@theme {
+    /* Loaded from Google Fonts by pages that use it, via @push('head'). */
+    --font-yule: "Shadows Into Light", cursive;
+}
