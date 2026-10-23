@@ -4,4 +4,10 @@
 @theme {
     /* Loaded from Google Fonts by pages that use it, via @push('head'). */
     --font-yule: "Shadows Into Light", cursive;
+
+    --animate-yule-fade: yule-fade 2s ease-in forwards;
+    @keyframes yule-fade {
+        0%, 25% { opacity: 1; }
+        100% { opacity: 0; }
+    }
 }

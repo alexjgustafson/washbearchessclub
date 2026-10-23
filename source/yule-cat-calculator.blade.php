@@ -5,6 +5,10 @@ description: "Randomly draws the starting position and time control for each rou
 
 @extends('_layouts.main')
 
+@push('head')
+    <link rel="preload" as="image" href="{{ $page->imageBucket }}Yule_cat--medium.webp">
+@endpush
+
 @section('body')
     <div class="mb-8 text-center">
         <h2 class="text-3xl font-bold block mb-8">Yule Cat Calculator 🐈‍⬛</h2>
@@ -16,7 +20,17 @@ description: "Randomly draws the starting position and time control for each rou
             <button type="button" @click="roll()" class="text-lg text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Summon the Yule Cat</button>
         </div>
 
-        <div x-show="result" x-cloak>
+        <div x-show="result" x-cloak class="relative">
+            <template x-for="id in summons" :key="id">
+                <div class="not-prose absolute inset-0 z-10 pointer-events-none animate-yule-fade motion-reduce:hidden" @animationend="summons = []" aria-hidden="true">
+                    @img([
+                        'src' => 'Yule_cat--medium.webp',
+                        'alt' => '',
+                        'class' => 'w-full h-full object-cover rounded-lg'
+                    ])
+                </div>
+            </template>
+
             <h3>Starting Position</h3>
             <template x-if="result">
                 <div>
@@ -96,7 +110,9 @@ description: "Randomly draws the starting position and time control for each rou
 
             return {
                 result: null,
+                summons: [],
                 roll() {
+                    this.summons = [Date.now()];
                     const baseTime = pick(BASE_TIMES);
                     const addedTime = pick(ADDED_TIMES);
                     this.result = {
