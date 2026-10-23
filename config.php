@@ -16,6 +16,8 @@ return [
     ],
     'og:image' => 'https://assets.washbearchess.club/images/raccoon-with-rook-320x320.jpeg',
     'affiliateMsa' => 'https://ratings.uschess.org/affiliate/A9630067',
+    'affiliateMsaRegular' => 'https://ratings.uschess.org/affiliate/A9630067?ratingSystem=R',
+    'affiliateMsaBlitz' => 'https://ratings.uschess.org/affiliate/A9630067?ratingSystem=B',
     'currentYear' => date('Y'),
     'imageBucket' => $IMAGE_BUCKET,
 ];
