@@ -82,7 +82,7 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated October 23, 2026 10:15am. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated October 23, 2026 11:14am. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -167,6 +167,11 @@ study: ''
             'name'   => 'Andrew C Scheiderich',
             'id'     => '30675599',
             'rating' => '326 (P20)',
+        ],
+        [
+            'name'   => 'Stephanie Dorelle Manning',
+            'id'     => '33137895',
+            'rating' => '220 (P7)',
         ],
         [
             'name'   => 'AJ Fischer',
