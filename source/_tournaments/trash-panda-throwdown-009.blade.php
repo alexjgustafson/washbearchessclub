@@ -82,7 +82,7 @@ study: ''
 
 
     <h2>Current Registrations</h2>
-    <p>Last updated October 23, 2026 11:32am. <a href="#online-registration">Add your name to the list!</a></p>
+    <p>Last updated October 23, 2026 4:07pm. <a href="#online-registration">Add your name to the list!</a></p>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -177,11 +177,6 @@ study: ''
             'name'   => 'AJ Fischer',
             'id'     => '31748989',
             'rating' => '103 (P4)',
-        ],
-        [
-            'name'   => 'Calvin Jeffrey White',
-            'id'     => '32903993',
-            'rating' => 'Unrated',
         ],
     ]])
 
