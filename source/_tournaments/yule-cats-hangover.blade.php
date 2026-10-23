@@ -20,6 +20,19 @@ study: ''
     <p>He needs a fun day to recover from all the feasting! But he's still a cat, and a cat's chaos never stops.</p>
     <p>Join us for a very silly, unrated event where every round is a surprise. Or just come hang out and play casually.</p>
 
+    <figure>
+        @img([
+            'src' => 'Yule_cat--medium.webp',
+            'alt' => 'A giant black cat with glowing red eyes prowling past snowy cottages under the northern lights',
+            'class' => 'h-auto max-w-full rounded-lg mx-auto',
+            'width' => '1200',
+            'height' => '738'
+        ])
+        <figcaption>
+            By Doc Taxon - Own work, CC0, <a href="https://commons.wikimedia.org/w/index.php?curid=180052460">https://commons.wikimedia.org/w/index.php?curid=180052460</a>
+        </figcaption>
+    </figure>
+
     <h2 id="registration">Registration</h2>
     <ul>
         <li>Entry fee: bring some snacks to share + pay what you want (recommended $10).</li>
