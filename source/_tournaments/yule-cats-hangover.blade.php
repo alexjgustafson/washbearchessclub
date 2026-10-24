@@ -53,8 +53,8 @@ study: ''
     <p>Want a preview? <a href="/yule-cat-calculator">Try the Yule Cat Calculator</a> to see what the cat might choose.</p>
     <ul>
         <li><strong>Starting position:</strong> Standard or a random Chess960 position</li>
-        <li><strong>Base time:</strong> G/20, G/15, or G/10</li>
-        <li><strong>Added time:</strong> +5 increment, 5 second delay, or none</li>
+        <li><strong>Base time:</strong> G/20, G/15, or G/11</li>
+        <li><strong>Added time:</strong> +6 increment, 6 second delay, or none</li>
         <li><strong>Colors:</strong> Always a coin flip</li>
     </ul>
 

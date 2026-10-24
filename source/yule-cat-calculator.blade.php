@@ -62,11 +62,11 @@ description: "Randomly draws the starting position and time control for each rou
             const BASE_TIMES = [
                 { code: 'G/20', label: '20 minutes' },
                 { code: 'G/15', label: '15 minutes' },
-                { code: 'G/10', label: '10 minutes' },
+                { code: 'G/11', label: '11 minutes' },
             ];
             const ADDED_TIMES = [
-                { code: ';+5', label: '5 second increment' },
-                { code: ';d5', label: '5 second delay' },
+                { code: ';+6', label: '6 second increment' },
+                { code: ';d6', label: '6 second delay' },
                 { code: '', label: 'None' },
             ];
             const SYMBOLS = { K: '♔', Q: '♕', R: '♖', B: '♗', N: '♘' };
