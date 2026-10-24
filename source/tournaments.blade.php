@@ -4,6 +4,8 @@
     <div class="mb-8 text-center">
         <h2 class="text-3xl font-bold block mb-8">Tournaments</h2>
 
+        @include('_molecules.homepage-yule-cat', ['headingTag' => 'h3'])
+
         <div id="upcoming" class="mb-8">
             <h3 class="py-2 text-xl font-bold block">Upcoming Classical Events</h3>
             <div class="max-w-2xl mx-auto px-1">

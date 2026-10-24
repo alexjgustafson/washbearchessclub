@@ -1,3 +1,5 @@
+<?php $headingTag = $headingTag ?? 'h2'; ?>
+
 @push('head')
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -7,7 +9,7 @@
 <div class="py-8 mb-8 bg-slate-900 text-white">
     <div class="max-w-3xl mx-auto px-8 py-8 text-center">
         <p class="font-yule text-3xl md:text-4xl text-red-400">Special Event:</p>
-        <h2 class="text-3xl md:text-5xl font-bold block"><a href="/tournaments/yule-cats-hangover" class="text-inherit no-underline">Yule Cat's Hangover</a></h2>
+        <{{ $headingTag }} class="text-3xl md:text-5xl font-bold block"><a href="/tournaments/yule-cats-hangover" class="text-inherit no-underline">Yule Cat's Hangover</a></{{ $headingTag }}>
         <p class="py-2 text-lg">Saturday, December 26th, 2026</p>
         <p class="py-2">A silly, unrated event where every round is a surprise. Random starting positions, random time controls, and come-and-go as you please.</p>
         <p class="py-2">Bring snacks to share. Pay what you want to support the Chess Education Foundation.</p>
