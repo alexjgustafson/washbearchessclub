@@ -5,8 +5,8 @@ gameFormat: '3SS, G/60;+30'
 location: 'Louisville, KY'
 entryFee: '$30'
 date: 'October 24, 2026'
-complete: false
-crosstable: ''
+complete: true
+crosstable: 'https://ratings.uschess.org/event/202610240603'
 study: ''
 ---
 
@@ -46,10 +46,6 @@ study: ''
     <h3 id="door-prize">Pre-Registration Door Prize</h3>
     <p>Pre-register online for a chance to win a $10 Awry Brewing gift card in our door prize drawing.</p>
 
-    <div class="text-center my-8 block">
-        <a href="#online-registration" class="text-lg text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Enter the Tournament</a>
-    </div>
-
     <h2 id="schedule">Schedule</h2>
     <ul>
         <li>October 24, 2026</li>
@@ -81,8 +77,7 @@ study: ''
 
 
 
-    <h2>Current Registrations</h2>
-    <p>Last updated October 23, 2026 7:58pm. <a href="#online-registration">Add your name to the list!</a></p>
+    <h2>Participants</h2>
 
     <h3>Washbear Open</h3>
     @include('_components.registration-table', ['registrations' => [
@@ -97,9 +92,9 @@ study: ''
             'rating' => '1968',
         ],
         [
-            'name'   => 'Zach Morris',
-            'id'     => '12814520',
-            'rating' => '1741',
+            'name'   => 'Victor Anthony Desoto',
+            'id'     => '16593597',
+            'rating' => '1703',
         ],
         [
             'name'   => 'Jose Arjona',
@@ -131,7 +126,6 @@ study: ''
             'id'     => '14946325',
             'rating' => '1337',
             'note'   => 'Live rating 1420 on 9/19/26',
-
         ],
         [
             'name'   => 'Beck Chandler',
@@ -185,13 +179,6 @@ study: ''
         ],
     ]])
 
-@endsection
-
-@section('entry-form')
-    <div class="prose mx-auto mt-16">
-        <h2 id="online-registration" class="mb-8">Online Registration</h2>
-        <p>Pre-registration is now closed. Please contact Alex directly at 502-472-3042 or register on-site from 9:30am to 10am.</p>
-    </div>
 @endsection
 
 @section('secondary-body')
